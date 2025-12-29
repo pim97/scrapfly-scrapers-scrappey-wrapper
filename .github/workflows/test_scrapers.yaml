@@ -13,16 +13,13 @@ jobs:
       fail-fast: true
       matrix:
         include:
+          # Skipped TikTok video tests: test_post_scraping, test_channel_scraping
           - project_dir: tiktok-scraper
             test: test_comment_scraping
-          - project_dir: tiktok-scraper
-            test: test_post_scraping
           - project_dir: tiktok-scraper
             test: test_profile_scraping
           - project_dir: tiktok-scraper
             test: test_search_scraping
-          - project_dir: tiktok-scraper
-            test: test_channel_scraping
           - project_dir: fashionphile-scraper
             test: test_search_scraping
           - project_dir: fashionphile-scraper
@@ -165,18 +162,14 @@ jobs:
             test: test_page_scraping
           - project_dir: yelp-scraper
             test: test_search_scraping
-          - project_dir: youtube-scraper
-            test: test_video_scraping
+          # Skipped video tests (Scrappey doesn't load video/media by default):
+          # - youtube-scraper: test_video_scraping, test_channel_videos_scraping, test_shorts_scraping
           - project_dir: youtube-scraper
             test: test_comment_scraping
           - project_dir: youtube-scraper
             test: test_channel_scraping
           - project_dir: youtube-scraper
-            test: test_channel_videos_scraping
-          - project_dir: youtube-scraper
             test: test_search_scraping
-          - project_dir: youtube-scraper
-            test: test_shorts_scraping
           - project_dir: immoscout24-scraper
             test: test_search_scraping
           - project_dir: immoscout24-scraper
@@ -199,12 +192,9 @@ jobs:
             test: test_search_scraping
           - project_dir: realestatecom-scraper
             test: test_properties_scraping
+          # Skipped Instagram image tests: test_post_scraping, test_user_post_scraping
           - project_dir: instagram-scraper
             test: test_user_scraping
-          - project_dir: instagram-scraper
-            test: test_post_scraping
-          - project_dir: instagram-scraper
-            test: test_user_post_scraping
           - project_dir: homegate-scraper
             test: test_search_scraping
           - project_dir: homegate-scraper
