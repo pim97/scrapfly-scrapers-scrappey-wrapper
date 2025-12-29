@@ -229,8 +229,7 @@ async def scrape_product(url: str) -> List[Product]:
         url, 
         **BASE_CONFIG, 
         render_js=True, 
-        # Wait for the product title which is always present
-        wait_for_selector="#productTitle",
+        wait_for_selector="#productDetails_detailBullets_sections1 tr",
     ))
     variants = [parse_product(product_result)]
 
