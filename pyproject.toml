@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scrappey-wrapper"
+version = "1.0.0"
+description = "A drop-in replacement wrapper for ScrapFly SDK using Scrappey API"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "httpx>=0.25.0",
+    "parsel>=1.8.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "loguru",
+    "jmespath",
+    "nested-lookup",
+]
+
+[tool.setuptools.packages.find]
+include = ["scrappey_wrapper*"]
+

@@ -59,10 +59,18 @@ This fork replaces the ScrapFly SDK with a custom `scrappey_wrapper` module that
 
 ## Quick Start
 
-### 1. Install Dependencies
+### 1. Install the Package
 
 ```bash
-pip install -r requirements.txt
+# Clone the repository
+git clone https://github.com/pim97/scrapfly-scrapers-scrappey-wrapper.git
+cd scrapfly-scrapers-scrappey-wrapper
+
+# Install the scrappey_wrapper package (required)
+pip install -e .
+
+# Install additional dependencies for scrapers
+pip install loguru jmespath nested-lookup
 ```
 
 ### 2. Set Your Scrappey API Key
