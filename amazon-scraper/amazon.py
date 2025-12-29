@@ -225,9 +225,11 @@ async def scrape_product(url: str) -> List[Product]:
     url = url.split("/ref=")[0]
     asin = url.split("/dp/")[-1]
     log.info(f"scraping product {url}")
+    # Create product-specific config (override wait_for_selector from BASE_CONFIG)
+    product_config = {k: v for k, v in BASE_CONFIG.items() if k != "wait_for_selector"}
     product_result = await SCRAPFLY.async_scrape(ScrapeConfig(
         url, 
-        **BASE_CONFIG, 
+        **product_config, 
         render_js=True, 
         wait_for_selector="#productDetails_detailBullets_sections1 tr",
     ))
@@ -238,7 +240,7 @@ async def scrape_product(url: str) -> List[Product]:
     if _variation_data:
         variant_asins = [variant_asin for variant_asin in json.loads(_variation_data[0]) if variant_asin != asin]
         log.info(f"scraping {len(variant_asins)} variants: {variant_asins}")
-        _to_scrape = [ScrapeConfig(f"https://www.amazon.com/dp/{asin}", **BASE_CONFIG) for asin in variant_asins]
+        _to_scrape = [ScrapeConfig(f"https://www.amazon.com/dp/{asin}", **product_config) for asin in variant_asins]
         async for result in SCRAPFLY.concurrent_scrape(_to_scrape):
             variants.append(parse_product(result))
     return variants
