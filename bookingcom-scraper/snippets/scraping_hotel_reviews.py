@@ -6,14 +6,14 @@ import asyncio
 
 from uuid import uuid4
 from typing import Dict, List, Optional
-from scrapfly import ScrapeApiResponse, ScrapeConfig, ScrapflyClient
+from scrappey_wrapper import ScrapeApiResponse, ScrapeConfig, ScrapflyClient
 
 BASE_CONFIG = {
     "asp": True,
     "country": "US",
 }
 
-SCRAPFLY = ScrapflyClient(key=os.environ["SCRAPFLY_KEY"])
+SCRAPFLY = ScrapflyClient(key=os.environ["SCRAPPEY_KEY"])
 
 def retrieve_reviews_api_xhr_call(result: ScrapeApiResponse) -> Dict:
     """retrieve the reviews xhr call from the captured browser data"""

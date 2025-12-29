@@ -2,8 +2,8 @@
 This is an example web scraper for indeed.com used in scrapfly blog article:
 https://scrapfly.io/blog/how-to-scrape-indeedcom/
 
-To run this scraper set env variable $SCRAPFLY_KEY with your scrapfly API key:
-$ export $SCRAPFLY_KEY="your key from https://scrapfly.io/dashboard"
+To run this scraper set env variable $SCRAPPEY_KEY with your scrapfly API key:
+$ export $SCRAPPEY_KEY="your key from https://scrapfly.io/dashboard"
 """
 import json
 import math
@@ -13,9 +13,9 @@ from typing import Dict, List
 import urllib
 
 from loguru import logger as log
-from scrapfly import ScrapeApiResponse, ScrapeConfig, ScrapflyClient, ScrapflyScrapeError
+from scrappey_wrapper import ScrapeApiResponse, ScrapeConfig, ScrapflyClient, ScrapflyScrapeError
 
-SCRAPFLY = ScrapflyClient(key=os.environ["SCRAPFLY_KEY"])
+SCRAPFLY = ScrapflyClient(key=os.environ["SCRAPPEY_KEY"])
 BASE_CONFIG = {
     # Indeed.com requires Anti Scraping Protection bypass feature.
     "asp": True,

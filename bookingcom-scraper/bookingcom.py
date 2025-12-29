@@ -2,8 +2,8 @@
 This is an example web scraper for booking.com used in scrapfly blog article:
 https://scrapfly.io/blog/how-to-scrape-bookingcom/
 
-To run this scraper set env variable $SCRAPFLY_KEY with your scrapfly API key:
-$ export $SCRAPFLY_KEY="your key from https://scrapfly.io/dashboard"
+To run this scraper set env variable $SCRAPPEY_KEY with your scrapfly API key:
+$ export $SCRAPPEY_KEY="your key from https://scrapfly.io/dashboard"
 
 For example use instructions see ./run.py
 """
@@ -17,9 +17,9 @@ from urllib.parse import urlencode
 from uuid import uuid4
 
 from loguru import logger as log
-from scrapfly import ScrapeApiResponse, ScrapeConfig, ScrapflyClient
+from scrappey_wrapper import ScrapeApiResponse, ScrapeConfig, ScrapflyClient
 
-SCRAPFLY = ScrapflyClient(key=os.environ["SCRAPFLY_KEY"])
+SCRAPFLY = ScrapflyClient(key=os.environ["SCRAPPEY_KEY"])
 BASE_CONFIG = {
     # Booking.com requires Anti Scraping Protection bypass feature:
     "asp": True,

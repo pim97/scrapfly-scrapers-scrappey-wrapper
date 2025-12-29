@@ -2,14 +2,14 @@
 import os
 import re
 
-from scrapfly import ScrapeConfig, ScrapflyClient
+from scrappey_wrapper import ScrapeConfig, ScrapflyClient
 
 BASE_CONFIG = {
     "asp": True,
     "country": "US",
 }
 
-SCRAPFLY = ScrapflyClient(key=os.environ["SCRAPFLY_KEY"])
+SCRAPFLY = ScrapflyClient(key=os.environ["SCRAPPEY_KEY"])
 
 response = SCRAPFLY.scrape(ScrapeConfig(
     "https://www.amazon.com/dp/B07F7TLZF4",

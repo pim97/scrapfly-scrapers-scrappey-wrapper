@@ -2,8 +2,8 @@
 This example run script shows how to run the Indeed.com scraper defined in ./indeed.py
 It scrapes job data and saves it to ./results/
 
-To run this script set the env variable $SCRAPFLY_KEY with your scrapfly API key:
-$ export $SCRAPFLY_KEY="your key from https://scrapfly.io/dashboard"
+To run this script set the env variable $SCRAPPEY_KEY with your scrapfly API key:
+$ export $SCRAPPEY_KEY="your key from https://scrapfly.io/dashboard"
 """
 import asyncio
 import json

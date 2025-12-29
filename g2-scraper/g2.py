@@ -1,19 +1,19 @@
 """
 This is an example web scraper for g2.com.
 
-To run this scraper set env variable $SCRAPFLY_KEY with your scrapfly API key:
-$ export $SCRAPFLY_KEY="your key from https://scrapfly.io/dashboard"
+To run this scraper set env variable $SCRAPPEY_KEY with your scrapfly API key:
+$ export $SCRAPPEY_KEY="your key from https://scrapfly.io/dashboard"
 """
 
 import os
 import re
 import math
-from scrapfly import ScrapeConfig, ScrapflyClient, ScrapeApiResponse
+from scrappey_wrapper import ScrapeConfig, ScrapflyClient, ScrapeApiResponse
 from typing import Dict, List, Literal
 from loguru import logger as log
 from urllib.parse import urljoin
 
-SCRAPFLY = ScrapflyClient(key=os.environ["SCRAPFLY_KEY"])
+SCRAPFLY = ScrapflyClient(key=os.environ["SCRAPPEY_KEY"])
 
 BASE_CONFIG = {
     # bypass G2 web scraping blocking

@@ -2,8 +2,8 @@
 This is an example web scraper for Realtor.com used in scrapfly blog article:
 https://scrapfly.io/blog/how-to-scrape-realtorcom/
 
-To run this scraper set env variable $SCRAPFLY_KEY with your scrapfly API key:
-$ export $SCRAPFLY_KEY="your key from https://scrapfly.io/dashboard"
+To run this scraper set env variable $SCRAPPEY_KEY with your scrapfly API key:
+$ export $SCRAPPEY_KEY="your key from https://scrapfly.io/dashboard"
 """
 import asyncio
 import json
@@ -16,9 +16,9 @@ from pathlib import Path
 from typing import Dict, List, Optional
 from loguru import logger as log
 from parsel import Selector
-from scrapfly import ScrapeApiResponse, ScrapeConfig, ScrapflyClient
+from scrappey_wrapper import ScrapeApiResponse, ScrapeConfig, ScrapflyClient
 
-SCRAPFLY = ScrapflyClient(key=os.environ["SCRAPFLY_KEY"])
+SCRAPFLY = ScrapflyClient(key=os.environ["SCRAPPEY_KEY"])
 BASE_CONFIG = {
     # realtor.com requires Anti Scraping Protection bypass feature.
     # for more: https://scrapfly.io/docs/scrape-api/anti-scraping-protection

@@ -2,8 +2,8 @@
 This is an example web scraper for tripadvisor.com used in scrapfly blog article:
 https://scrapfly.io/blog/how-to-scrape-tripadvisor/
 
-To run this scraper set env variable $SCRAPFLY_KEY with your scrapfly API key:
-$ export $SCRAPFLY_KEY="your key from https://scrapfly.io/dashboard"
+To run this scraper set env variable $SCRAPPEY_KEY with your scrapfly API key:
+$ export $SCRAPPEY_KEY="your key from https://scrapfly.io/dashboard"
 """
 import json
 import math
@@ -14,9 +14,9 @@ from typing import List, Optional, TypedDict, Dict
 from urllib.parse import urljoin, urlparse, urlunparse
 
 from loguru import logger as log
-from scrapfly import ScrapeApiResponse, ScrapeConfig, ScrapflyClient
+from scrappey_wrapper import ScrapeApiResponse, ScrapeConfig, ScrapflyClient
 
-SCRAPFLY = ScrapflyClient(key=os.environ["SCRAPFLY_KEY"])
+SCRAPFLY = ScrapflyClient(key=os.environ["SCRAPPEY_KEY"])
 
 BASE_CONFIG = {
     # Tripadvisor.com requires Anti Scraping Protection bypass feature:

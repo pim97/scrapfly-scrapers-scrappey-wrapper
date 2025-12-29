@@ -8,14 +8,14 @@ from urllib.parse import urlencode
 from collections import defaultdict
 from datetime import datetime, timedelta
 from typing import Dict, List, Optional, TypedDict
-from scrapfly import ScrapeApiResponse, ScrapeConfig, ScrapflyClient
+from scrappey_wrapper import ScrapeApiResponse, ScrapeConfig, ScrapflyClient
 
 BASE_CONFIG = {
     "asp": True,
     "country": "US",
 }
 
-SCRAPFLY = ScrapflyClient(key=os.environ["SCRAPFLY_KEY"])
+SCRAPFLY = ScrapflyClient(key=os.environ["SCRAPPEY_KEY"])
 
 def retrieve_graphql_body(result: ScrapeApiResponse) -> List[Dict]:
     """parse the graphql search query from the HTML and return the full graphql body"""

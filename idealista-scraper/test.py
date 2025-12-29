@@ -5,9 +5,9 @@ import idealista
 import pytest
 import pprint
 import os
-from scrapfly import ScrapeConfig, ScrapflyClient
+from scrappey_wrapper import ScrapeConfig, ScrapflyClient
 
-SCRAPFLY = ScrapflyClient(key=os.environ["SCRAPFLY_KEY"])
+SCRAPFLY = ScrapflyClient(key=os.environ["SCRAPPEY_KEY"])
 
 BASE_CONFIG = {
     # bypass web scraping blocking

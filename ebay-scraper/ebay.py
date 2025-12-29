@@ -2,8 +2,8 @@
 This is an example web scraper for Ebay.com used in scrapfly blog article:
 https://scrapfly.io/blog/how-to-scrape-ebay/
 
-To run this scraper set env variable $SCRAPFLY_KEY with your scrapfly API key:
-$ export $SCRAPFLY_KEY="your key from https://scrapfly.io/dashboard"
+To run this scraper set env variable $SCRAPPEY_KEY with your scrapfly API key:
+$ export $SCRAPPEY_KEY="your key from https://scrapfly.io/dashboard"
 """
 
 import json
@@ -17,9 +17,9 @@ from urllib.parse import parse_qsl, urlencode, urlparse, urlunparse
 import dateutil
 from nested_lookup import nested_lookup
 from loguru import logger as log
-from scrapfly import ScrapeApiResponse, ScrapeConfig, ScrapflyClient, ScrapflyScrapeError
+from scrappey_wrapper import ScrapeApiResponse, ScrapeConfig, ScrapflyClient, ScrapflyScrapeError
 
-SCRAPFLY = ScrapflyClient(key=os.environ["SCRAPFLY_KEY"])
+SCRAPFLY = ScrapflyClient(key=os.environ["SCRAPPEY_KEY"])
 BASE_CONFIG = {
     # Ebay.com requires Anti Scraping Protection bypass feature.
     # for more: https://scrapfly.io/docs/scrape-api/anti-scraping-protection

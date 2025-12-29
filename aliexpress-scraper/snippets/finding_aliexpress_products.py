@@ -6,7 +6,7 @@ import re
 import asyncio
 
 from typing import Dict, List
-from scrapfly import ScrapeApiResponse, ScrapeConfig, ScrapflyClient
+from scrappey_wrapper import ScrapeApiResponse, ScrapeConfig, ScrapflyClient
 
 BASE_CONFIG = {
     "asp": True,
@@ -17,7 +17,7 @@ BASE_CONFIG = {
     }
 }
 
-SCRAPFLY = ScrapflyClient(key=os.environ["SCRAPFLY_KEY"])
+SCRAPFLY = ScrapflyClient(key=os.environ["SCRAPPEY_KEY"])
 
 def parse_category_page(response: ScrapeApiResponse):
     """Parse category page response for product preview results"""

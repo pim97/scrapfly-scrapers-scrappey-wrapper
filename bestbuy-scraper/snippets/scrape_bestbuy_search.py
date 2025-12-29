@@ -8,7 +8,7 @@ import asyncio
 from parsel import Selector
 from typing import Dict, List, Union
 from urllib.parse import urlencode, quote_plus
-from scrapfly import ScrapeConfig, ScrapflyClient, ScrapeApiResponse
+from scrappey_wrapper import ScrapeConfig, ScrapflyClient, ScrapeApiResponse
 
 BASE_CONFIG = {
     # bypass bestbuy.com web scraping blocking
@@ -18,7 +18,7 @@ BASE_CONFIG = {
     "proxy_pool":"public_residential_pool",
 }
 
-SCRAPFLY = ScrapflyClient(key=os.environ["SCRAPFLY_KEY"])
+SCRAPFLY = ScrapflyClient(key=os.environ["SCRAPPEY_KEY"])
 
 def parse_search(response: ScrapeApiResponse):
     """parse search data from search pages"""

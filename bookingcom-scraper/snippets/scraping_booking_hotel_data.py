@@ -8,14 +8,14 @@ from uuid import uuid4
 from collections import defaultdict
 from datetime import datetime, timedelta
 from typing import Dict, List
-from scrapfly import ScrapeApiResponse, ScrapeConfig, ScrapflyClient
+from scrappey_wrapper import ScrapeApiResponse, ScrapeConfig, ScrapflyClient
 
 BASE_CONFIG = {
     "asp": True,
     "country": "US",
 }
 
-SCRAPFLY = ScrapflyClient(key=os.environ["SCRAPFLY_KEY"])
+SCRAPFLY = ScrapflyClient(key=os.environ["SCRAPPEY_KEY"])
 
 def parse_hotel(result: ScrapeApiResponse) -> Dict:
     print(f"parsing hotel page: {result.context['url']}")

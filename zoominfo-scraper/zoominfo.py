@@ -1,17 +1,17 @@
 """
 This is an example web scraper for zoominfo.com.
 
-To run this scraper set env variable $SCRAPFLY_KEY with your scrapfly API key:
-$ export $SCRAPFLY_KEY="your key from https://scrapfly.io/dashboard"
+To run this scraper set env variable $SCRAPPEY_KEY with your scrapfly API key:
+$ export $SCRAPPEY_KEY="your key from https://scrapfly.io/dashboard"
 """
 
 import os
 import json
 from typing import Dict, List
 from loguru import logger as log
-from scrapfly import ScrapeConfig, ScrapflyClient, ScrapeApiResponse, ScrapflyAspError
+from scrappey_wrapper import ScrapeConfig, ScrapflyClient, ScrapeApiResponse, ScrappeyError
 
-SCRAPFLY = ScrapflyClient(key=os.environ["SCRAPFLY_KEY"])
+SCRAPFLY = ScrapflyClient(key=os.environ["SCRAPPEY_KEY"])
 
 BASE_CONFIG = {
     # bypass zoominfo.com web scraping blocking
@@ -78,7 +78,7 @@ async def scrape_comapnies(urls: List[str]) -> List[Dict]:
                 log.error(f"Failed to parse company data: {e}")
                 failed.append(response.context["url"])
         else:
-            # This is an error response (ApiHttpServerError, ScrapflyAspError, etc.)
+            # This is an error response (ApiHttpServerError, ScrappeyError, etc.)
             log.warning(f"Request failed with error: {response}")
             # Extract URL from the response context if available
             if hasattr(response, 'context') and 'url' in response.context:
@@ -92,7 +92,7 @@ async def scrape_comapnies(urls: List[str]) -> List[Dict]:
                     ScrapeConfig(url, **BASE_CONFIG, render_js=True, proxy_pool="public_residential_pool")
                 )
                 companies.append(parse_company(response))
-            except ScrapflyAspError:
+            except ScrappeyError:
                 pass
     log.success(f"scraped {len(companies)} company pages data")
     return companies

@@ -1,0 +1,5 @@
+# Scrappey Wrapper Dependencies
+httpx>=0.24.0
+parsel>=1.8.0
+loguru>=0.7.0
+jmespath>=1.0.0

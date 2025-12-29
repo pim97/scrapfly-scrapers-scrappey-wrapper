@@ -2,8 +2,8 @@
 This is an example web scraper for Threads.net used in scrapfly blog article:
 https://scrapfly.io/blog/how-to-scrape-threads/
 
-To run this scraper set env variable $SCRAPFLY_KEY with your scrapfly API key:
-$ export $SCRAPFLY_KEY="your key from https://scrapfly.io/dashboard"
+To run this scraper set env variable $SCRAPPEY_KEY with your scrapfly API key:
+$ export $SCRAPPEY_KEY="your key from https://scrapfly.io/dashboard"
 """
 import json
 import os
@@ -13,9 +13,9 @@ from typing import Dict
 
 from nested_lookup import nested_lookup
 from loguru import logger as log
-from scrapfly import ScrapeConfig, ScrapflyClient
+from scrappey_wrapper import ScrapeConfig, ScrapflyClient
 
-SCRAPFLY = ScrapflyClient(key=os.environ["SCRAPFLY_KEY"])
+SCRAPFLY = ScrapflyClient(key=os.environ["SCRAPPEY_KEY"])
 BASE_CONFIG = {
     # Threads.net might require Anti Scraping Protection bypass feature.
     # for more: https://scrapfly.io/docs/scrape-api/anti-scraping-protection

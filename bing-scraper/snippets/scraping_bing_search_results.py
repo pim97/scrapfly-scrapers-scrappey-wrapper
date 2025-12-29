@@ -6,7 +6,7 @@ import asyncio
 
 from typing import Dict, List
 from urllib.parse import urlencode
-from scrapfly import ScrapeConfig, ScrapflyClient, ScrapeApiResponse
+from scrappey_wrapper import ScrapeConfig, ScrapflyClient, ScrapeApiResponse
 
 BASE_CONFIG = {
     "asp": True,
@@ -16,7 +16,7 @@ BASE_CONFIG = {
     "auto_scroll":True,
 }
 
-SCRAPFLY = ScrapflyClient(key=os.environ["SCRAPFLY_KEY"])
+SCRAPFLY = ScrapflyClient(key=os.environ["SCRAPPEY_KEY"])
 
 def parse_serps(response: ScrapeApiResponse) -> List[Dict]:
     """parse SERPs from bing search pages"""

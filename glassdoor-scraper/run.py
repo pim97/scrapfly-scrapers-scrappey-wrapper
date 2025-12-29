@@ -2,8 +2,8 @@
 This example run script shows how to run the Glassdoor.com scraper defined in ./glassdoor.py
 It scrapes job, review and salary (TODO OVERVIEW?) data and saves it to ./results/
 
-To run this script set the env variable $SCRAPFLY_KEY with your scrapfly API key:
-$ export $SCRAPFLY_KEY="your key from https://scrapfly.io/dashboard"
+To run this script set the env variable $SCRAPPEY_KEY with your scrapfly API key:
+$ export $SCRAPPEY_KEY="your key from https://scrapfly.io/dashboard"
 """
 import asyncio
 import json

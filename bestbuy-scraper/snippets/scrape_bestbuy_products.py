@@ -7,7 +7,7 @@ import asyncio
 
 from parsel import Selector
 from typing import Dict, List
-from scrapfly import ScrapeConfig, ScrapflyClient, ScrapeApiResponse
+from scrappey_wrapper import ScrapeConfig, ScrapflyClient, ScrapeApiResponse
 
 BASE_CONFIG = {
     "asp": True,
@@ -15,7 +15,7 @@ BASE_CONFIG = {
     "proxy_pool":"public_residential_pool",
 }
 
-SCRAPFLY = ScrapflyClient(key=os.environ["SCRAPFLY_KEY"])
+SCRAPFLY = ScrapflyClient(key=os.environ["SCRAPPEY_KEY"])
 
 def parse_product(response: ScrapeApiResponse) -> Dict:
     """parse product data from bestbuy product pages"""

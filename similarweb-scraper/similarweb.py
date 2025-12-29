@@ -1,8 +1,8 @@
 """
 This is an example web scraper for SimilarWeb.com.
 
-To run this scraper set env variable $SCRAPFLY_KEY with your scrapfly API key:
-$ export $SCRAPFLY_KEY="your key from https://scrapfly.io/dashboard"
+To run this scraper set env variable $SCRAPPEY_KEY with your scrapfly API key:
+$ export $SCRAPPEY_KEY="your key from https://scrapfly.io/dashboard"
 """
 
 import re
@@ -15,9 +15,9 @@ from io import BytesIO
 from parsel import Selector
 from typing import Dict, List, Optional
 from loguru import logger as log
-from scrapfly import ScrapeConfig, ScrapflyClient, ScrapeApiResponse
+from scrappey_wrapper import ScrapeConfig, ScrapflyClient, ScrapeApiResponse
 
-SCRAPFLY = ScrapflyClient(key=os.environ["SCRAPFLY_KEY"])
+SCRAPFLY = ScrapflyClient(key=os.environ["SCRAPPEY_KEY"])
 
 BASE_CONFIG = {
     # bypass bestbuy.com web scraping blocking

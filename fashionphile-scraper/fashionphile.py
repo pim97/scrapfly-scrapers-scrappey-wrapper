@@ -1,8 +1,8 @@
 """
 This is an example web scraper for fashionphile.com.
 
-To run this scraper set env variable $SCRAPFLY_KEY with your scrapfly API key:
-$ export $SCRAPFLY_KEY="your key from https://scrapfly.io/dashboard"
+To run this scraper set env variable $SCRAPPEY_KEY with your scrapfly API key:
+$ export $SCRAPPEY_KEY="your key from https://scrapfly.io/dashboard"
 """
 
 import os
@@ -11,9 +11,9 @@ from typing import Dict, List
 from pathlib import Path
 from loguru import logger as log
 import re
-from scrapfly import ScrapeConfig, ScrapflyClient
+from scrappey_wrapper import ScrapeConfig, ScrapflyClient
 
-SCRAPFLY = ScrapflyClient(key=os.environ["SCRAPFLY_KEY"])
+SCRAPFLY = ScrapflyClient(key=os.environ["SCRAPPEY_KEY"])
 
 BASE_CONFIG = {
     # bypass fashionphile.com web scraping blocking

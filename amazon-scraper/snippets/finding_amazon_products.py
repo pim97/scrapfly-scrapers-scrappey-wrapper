@@ -7,14 +7,14 @@ import asyncio
 
 from typing import Dict, List, Optional
 from urllib.parse import urljoin, urlparse, parse_qsl, urlencode, urlunparse
-from scrapfly import ScrapeApiResponse, ScrapeConfig, ScrapflyClient
+from scrappey_wrapper import ScrapeApiResponse, ScrapeConfig, ScrapflyClient
 
 BASE_CONFIG = {
     "asp": True,
     "country": "US",
 }
 
-SCRAPFLY = ScrapflyClient(key=os.environ["SCRAPFLY_KEY"])
+SCRAPFLY = ScrapflyClient(key=os.environ["SCRAPPEY_KEY"])
 
 def _add_or_replace_url_parameters(url: str, **params):
     """adds url parameters or replaces them with new values"""
