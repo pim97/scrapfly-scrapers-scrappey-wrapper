@@ -73,4 +73,18 @@ class ScrapeApiResponse:
     @property
     def raw_response(self) -> Dict[str, Any]:
         return self._raw_response
+    
+    @property
+    def captcha_tokens(self) -> list:
+        """
+        Returns solved captcha tokens if automaticallySolveCaptchas was enabled.
+        Each token includes captchaType, token, and timestamp.
+        """
+        solution = self._raw_response.get("solution", {})
+        return solution.get("javascriptReturn", [])
+    
+    @property
+    def additional_cost(self) -> float:
+        """Returns additional costs (e.g., from captcha solving)."""
+        return self._raw_response.get("additionalCost", 0.0)
 

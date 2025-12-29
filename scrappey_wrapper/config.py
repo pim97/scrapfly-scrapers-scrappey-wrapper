@@ -33,6 +33,7 @@ class ScrapeConfig:
     rendering_wait: Optional[int] = None
     screenshots: Optional[Dict[str, Any]] = None
     debug: bool = False
+    auto_solve_captcha: bool = True  # Automatically solve captchas (reCAPTCHA, hCaptcha, Turnstile, etc.)
     extra: Dict[str, Any] = field(default_factory=dict)
     
     def to_scrappey_payload(self, session_id: Optional[str] = None) -> Dict[str, Any]:
@@ -105,6 +106,14 @@ class ScrapeConfig:
         
         if browser_actions:
             payload["browserActions"] = browser_actions
+        
+        # Enable automatic captcha solving
+        if self.auto_solve_captcha:
+            payload["automaticallySolveCaptchas"] = True
+        
+        # Include any extra parameters
+        if self.extra:
+            payload.update(self.extra)
         
         return payload
     
