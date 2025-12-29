@@ -292,25 +292,7 @@ jobs:
 
     - name: Run test
       env:
-        SCRAPFLY_KEY: ${{ secrets.SCRAPFLY_KEY }}
+        SCRAPPEY_KEY: ${{ secrets.SCRAPPEY_KEY }}
       run: |
         cd ${{ matrix.project_dir }}
         poetry run pytest test.py -k ${{ matrix.test }}
-
-    - name: Send Slack notification
-      uses: 8398a7/action-slack@v3
-      if: failure()
-      with:
-        status: custom
-        fields: workflowRun
-        custom_payload: |
-          {
-            text: "",
-            attachments: [{
-              color: "danger",
-              text: `${process.env.AS_WORKFLOW_RUN} ${{ matrix.project_dir }}: ${{ matrix.test }}`,
-            }]
-          }
-      env:
-        SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
