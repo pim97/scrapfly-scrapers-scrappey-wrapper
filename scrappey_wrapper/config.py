@@ -76,8 +76,8 @@ class ScrapeConfig:
         
         if self.wait_for_selector:
             browser_actions.append({
-                "type": "waitForSelector",
-                "selector": self.wait_for_selector,
+                "type": "wait_for_selector",
+                "cssSelector": self.wait_for_selector,
                 "timeout": 30000
             })
         
@@ -87,21 +87,19 @@ class ScrapeConfig:
         
         if self.js:
             browser_actions.append({
-                "type": "executeJs",
+                "type": "execute_js",
                 "code": self.js
             })
         
         if self.auto_scroll:
             browser_actions.append({
-                "type": "scroll",
-                "direction": "down",
-                "amount": "bottom"
+                "type": "scroll"
             })
         
         if self.rendering_wait:
             browser_actions.append({
                 "type": "wait",
-                "time": self.rendering_wait
+                "wait": self.rendering_wait
             })
         
         if browser_actions:
@@ -144,23 +142,33 @@ class ScrapeConfig:
         """Convert ScrapFly js_scenario action to Scrappey browserAction format."""
         if "wait_for_selector" in action:
             return {
-                "type": "waitForSelector",
-                "selector": action["wait_for_selector"].get("selector"),
+                "type": "wait_for_selector",
+                "cssSelector": action["wait_for_selector"].get("selector"),
                 "timeout": action["wait_for_selector"].get("timeout", 30000)
             }
         elif "click" in action:
             click_data = action["click"]
-            result = {"type": "click", "selector": click_data.get("selector")}
+            result = {"type": "click", "cssSelector": click_data.get("selector")}
             if click_data.get("ignore_if_not_visible"):
-                result["ignoreIfNotVisible"] = True
+                result["ignoreErrors"] = True
             return result
         elif "wait" in action:
-            return {"type": "wait", "time": action["wait"]}
+            return {"type": "wait", "wait": action["wait"]}
         elif "scroll" in action:
+            scroll_data = action.get("scroll", {})
+            result = {"type": "scroll"}
+            if isinstance(scroll_data, dict) and scroll_data.get("selector"):
+                result["cssSelector"] = scroll_data.get("selector")
+            return result
+        elif "execute_js" in action or "js" in action:
+            code = action.get("execute_js", action.get("js", ""))
+            return {"type": "execute_js", "code": code}
+        elif "type" in action and "selector" in action:
+            # Handle typing action
             return {
-                "type": "scroll",
-                "direction": action.get("direction", "down"),
-                "amount": action.get("amount", 500)
+                "type": "type",
+                "cssSelector": action.get("selector"),
+                "text": action.get("text", "")
             }
         return action
 
