@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+scrappey_wrapper/__init__.py
+scrappey_wrapper/config.py
+scrappey_wrapper/exceptions.py
+scrappey_wrapper/response.py
+scrappey_wrapper/scrappey.py
+scrappey_wrapper.egg-info/PKG-INFO
+scrappey_wrapper.egg-info/SOURCES.txt
+scrappey_wrapper.egg-info/dependency_links.txt
+scrappey_wrapper.egg-info/requires.txt
+scrappey_wrapper.egg-info/top_level.txt
