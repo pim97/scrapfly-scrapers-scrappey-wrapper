@@ -44,6 +44,8 @@ class ScrapeConfig:
         payload: Dict[str, Any] = {
             "cmd": cmd,
             "url": self.url,
+            # Always use premium proxy for faster, more reliable scraping
+            "premiumProxy": True,
         }
         
         if session_id:
@@ -53,8 +55,6 @@ class ScrapeConfig:
         
         if self.country:
             payload["proxyCountry"] = self._map_country_code(self.country)
-            # Always use premium proxy when country is specified (pool is bigger)
-            payload["premiumProxy"] = True
         
         if self.headers:
             payload["customHeaders"] = self.headers
@@ -70,10 +70,6 @@ class ScrapeConfig:
         
         if self.data:
             payload["postData"] = self.data
-        
-        # Also set premiumProxy if explicitly requested via proxy_pool
-        if self.proxy_pool and "residential" in self.proxy_pool.lower():
-            payload["premiumProxy"] = True
         
         browser_actions = []
         
