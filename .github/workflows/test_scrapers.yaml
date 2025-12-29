@@ -285,6 +285,10 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-poetry-
 
+    - name: Install scrappey_wrapper
+      run: |
+        pip install -e .
+
     - name: Install dependencies
       run: |
         cd ${{ matrix.project_dir }}
