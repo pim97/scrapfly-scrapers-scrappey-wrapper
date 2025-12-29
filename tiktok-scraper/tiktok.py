@@ -111,7 +111,7 @@ async def retrieve_comment_params(post_url: str, session: str) -> Dict:
                         }
                     },
                     {
-                        "wait":5000
+                        "wait": 5  # seconds
                     }
                 ],
         )

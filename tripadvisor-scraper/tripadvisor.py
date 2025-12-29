@@ -67,7 +67,7 @@ async def scrape_location_data(query: str) -> List[LocationData]:
                     }
                 },
                 {
-                    "wait": 5000
+                    "wait": 5  # seconds
                 }
             ]
         )

@@ -104,9 +104,11 @@ class ScrapeConfig:
             })
         
         if self.rendering_wait:
+            # Convert milliseconds to seconds (Scrappey uses seconds)
+            wait_seconds = self.rendering_wait / 1000 if self.rendering_wait > 100 else self.rendering_wait
             browser_actions.append({
                 "type": "wait",
-                "wait": self.rendering_wait
+                "wait": wait_seconds
             })
         
         if browser_actions:

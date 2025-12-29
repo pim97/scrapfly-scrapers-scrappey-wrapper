@@ -33,7 +33,7 @@ Clicks on an element using CSS selector.
 {
   "type": "click",
   "cssSelector": "#submit-button",
-  "wait": 1000,
+  "wait": 1,
   "waitForSelector": ".success-message"
 }
 ```
@@ -87,15 +87,17 @@ Pauses execution for a specified time.
 
 | Property | Type | Required | Description |
 |----------|------|----------|-------------|
-| `wait` | number | Yes | Wait time in milliseconds |
+| `wait` | number | Yes | Wait time in **seconds** (not milliseconds!) |
 
 **Example:**
 ```json
 {
   "type": "wait",
-  "wait": 2000
+  "wait": 2
 }
 ```
+
+> ⚠️ **Note:** Scrappey uses **seconds**, not milliseconds. Use `2` for 2 seconds, not `2000`.
 
 ---
 
@@ -372,7 +374,7 @@ Loops actions while a condition is true.
   "condition": "document.querySelector('.load-more') !== null",
   "then": [
     { "type": "click", "cssSelector": ".load-more" },
-    { "type": "wait", "wait": 1000 }
+    { "type": "wait", "wait": 1 }
   ],
   "maxAttempts": 10
 }
@@ -551,7 +553,7 @@ config = ScrapeConfig(
     js_scenario=[
         {"wait_for_selector": {"selector": "#content"}},
         {"click": {"selector": "#load-more"}},
-        {"wait": 2000},
+        {"wait": 2},
     ]
 )
 
