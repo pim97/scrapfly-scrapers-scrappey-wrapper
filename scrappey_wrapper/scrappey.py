@@ -3,6 +3,7 @@ ScrappeyClient - Main client class for interacting with Scrappey API.
 """
 import asyncio
 import os
+import random
 from typing import Dict, Any, Optional, List, AsyncIterator, Union
 
 import httpx
@@ -16,6 +17,24 @@ from .exceptions import (
     ScrappeyTimeoutError,
     ScrapflyScrapeError,
 )
+
+# Errors that should trigger a retry
+RETRYABLE_ERRORS = [
+    "browser closed",
+    "browser disconnected",
+    "target closed",
+    "page closed",
+    "navigation failed",
+    "net::err",
+    "timeout",
+    "econnreset",
+    "econnrefused",
+    "socket hang up",
+    "network error",
+    "protocol error",
+    "session not found",
+    "context destroyed",
+]
 
 
 class ScrappeyClient:
@@ -31,6 +50,9 @@ class ScrappeyClient:
         key: Optional[str] = None,
         max_concurrency: int = 50,
         timeout: int = 120,
+        max_retries: int = 3,
+        retry_delay: float = 1.0,
+        retry_max_delay: float = 30.0,
     ):
         self.api_key = key or os.environ.get("SCRAPPEY_KEY")
         if not self.api_key:
@@ -40,7 +62,23 @@ class ScrappeyClient:
         
         self.max_concurrency = max_concurrency
         self.timeout = timeout
+        self.max_retries = max_retries
+        self.retry_delay = retry_delay
+        self.retry_max_delay = retry_max_delay
         self._session_cache: Dict[str, str] = {}
+    
+    def _is_retryable_error(self, error_message: str) -> bool:
+        """Check if an error message indicates a retryable error."""
+        error_lower = error_message.lower()
+        return any(err in error_lower for err in RETRYABLE_ERRORS)
+    
+    def _get_retry_delay(self, attempt: int) -> float:
+        """Calculate delay with exponential backoff and jitter."""
+        delay = self.retry_delay * (2 ** attempt)
+        delay = min(delay, self.retry_max_delay)
+        # Add jitter (±25%)
+        jitter = delay * 0.25 * (2 * random.random() - 1)
+        return delay + jitter
     
     @property
     def _api_url(self) -> str:
@@ -100,8 +138,52 @@ class ScrappeyClient:
         session_id: Optional[str] = None
     ) -> ScrapeApiResponse:
         payload = config.to_scrappey_payload(session_id)
-        response = await self._make_request(payload)
-        return ScrapeApiResponse(response, config.url)
+        
+        last_error = None
+        for attempt in range(self.max_retries + 1):
+            try:
+                response = await self._make_request(payload)
+                return ScrapeApiResponse(response, config.url)
+            except (ScrappeyRequestError, ScrappeyTimeoutError) as e:
+                last_error = e
+                error_message = str(e)
+                
+                # Don't retry auth errors
+                if isinstance(e, ScrappeyAuthError):
+                    raise
+                
+                # Check if error is retryable
+                if not self._is_retryable_error(error_message):
+                    raise
+                
+                # Don't retry if we've exhausted attempts
+                if attempt >= self.max_retries:
+                    break
+                
+                # Calculate delay and wait
+                delay = self._get_retry_delay(attempt)
+                print(f"[Scrappey] Retryable error: {error_message[:100]}... Retrying in {delay:.1f}s (attempt {attempt + 1}/{self.max_retries})")
+                await asyncio.sleep(delay)
+            except httpx.HTTPError as e:
+                last_error = e
+                error_message = str(e)
+                
+                if not self._is_retryable_error(error_message):
+                    raise ScrappeyRequestError(f"HTTP error: {e}")
+                
+                if attempt >= self.max_retries:
+                    break
+                
+                delay = self._get_retry_delay(attempt)
+                print(f"[Scrappey] HTTP error: {error_message[:100]}... Retrying in {delay:.1f}s (attempt {attempt + 1}/{self.max_retries})")
+                await asyncio.sleep(delay)
+        
+        # All retries exhausted
+        raise ScrappeyRequestError(
+            f"Failed after {self.max_retries + 1} attempts. Last error: {last_error}",
+            code="MAX_RETRIES_EXCEEDED",
+            api_response={"url": config.url}
+        )
     
     async def concurrent_scrape(
         self,
