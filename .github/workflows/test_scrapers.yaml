@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       max-parallel: 50
-      fail-fast: true
+      fail-fast: false  # Continue running all tests even if some fail
       matrix:
         include:
           # Skipped TikTok video tests: test_post_scraping, test_channel_scraping
