@@ -41,14 +41,28 @@ class ScrappeyClient:
     """
     Client for interacting with the Scrappey API.
     Provides a ScrapFly-compatible interface for easy migration.
+    
+    Args:
+        key: Scrappey API key. If not provided, uses SCRAPPEY_KEY env variable.
+        max_concurrency: Maximum concurrent requests (1-100, default: 100).
+        timeout: Request timeout in seconds (default: 120).
+        max_retries: Number of retries for transient errors (default: 3).
+        retry_delay: Initial retry delay in seconds (default: 1.0).
+        retry_max_delay: Maximum retry delay in seconds (default: 30.0).
+    
+    Example:
+        >>> client = ScrappeyClient(key="your-api-key", max_concurrency=50)
+        >>> # Or use environment variable
+        >>> client = ScrappeyClient()  # Uses SCRAPPEY_KEY env var, 100 concurrent
     """
     
     BASE_URL = "https://publisher.scrappey.com/api/v1"
+    MAX_ALLOWED_CONCURRENCY = 100  # Scrappey supports up to 100 concurrent requests
     
     def __init__(
         self,
         key: Optional[str] = None,
-        max_concurrency: int = 50,
+        max_concurrency: int = 100,  # Scrappey supports high concurrency by default
         timeout: int = 120,
         max_retries: int = 3,
         retry_delay: float = 1.0,
@@ -59,6 +73,13 @@ class ScrappeyClient:
             raise ScrappeyAuthError(
                 "API key is required. Set SCRAPPEY_KEY environment variable or pass key parameter."
             )
+        
+        # Validate and set concurrency (1-100)
+        if max_concurrency < 1:
+            max_concurrency = 1
+        elif max_concurrency > self.MAX_ALLOWED_CONCURRENCY:
+            print(f"[Scrappey] Warning: max_concurrency {max_concurrency} exceeds limit, using {self.MAX_ALLOWED_CONCURRENCY}")
+            max_concurrency = self.MAX_ALLOWED_CONCURRENCY
         
         self.max_concurrency = max_concurrency
         self.timeout = timeout

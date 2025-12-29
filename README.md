@@ -107,6 +107,53 @@ scrappey_wrapper/
 └── exceptions.py      # Custom exception classes
 ```
 
+## High Concurrency Support
+
+Scrappey supports up to **100 concurrent requests** by default (vs ScrapFly's lower limits). This makes large-scale scraping significantly faster.
+
+```python
+from scrappey_wrapper import ScrapflyClient
+
+# Default: 100 concurrent requests
+client = ScrapflyClient(key="your-api-key")
+
+# Or customize concurrency (1-100)
+client = ScrapflyClient(
+    key="your-api-key",
+    max_concurrency=50,      # Limit to 50 concurrent requests
+    timeout=120,             # Request timeout in seconds
+    max_retries=3,           # Retry transient errors
+)
+```
+
+### Concurrent Scraping Example
+
+```python
+import asyncio
+from scrappey_wrapper import ScrapflyClient, ScrapeConfig
+
+client = ScrapflyClient(max_concurrency=100)  # Full speed!
+
+urls = [
+    "https://example.com/page1",
+    "https://example.com/page2",
+    # ... hundreds of URLs
+]
+
+async def scrape_all():
+    configs = [ScrapeConfig(url=url) for url in urls]
+    
+    async for response in client.concurrent_scrape(configs):
+        if hasattr(response, 'selector'):
+            # Success - process the response
+            print(f"Scraped: {response.url}")
+        else:
+            # Error - handle it
+            print(f"Error: {response}")
+
+asyncio.run(scrape_all())
+```
+
 ### Usage Example
 
 ```python
