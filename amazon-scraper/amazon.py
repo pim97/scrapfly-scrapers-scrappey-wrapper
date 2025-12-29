@@ -23,6 +23,8 @@ BASE_CONFIG = {
     "asp": True,
     # to change region see change the country code
     "country": "US",
+    # Wait for search results to load (Amazon is JS-heavy)
+    "wait_for_selector": "div.s-result-item[data-component-type=s-search-result]",
 }
 
 
@@ -79,9 +81,39 @@ async def scrape_search(url: str, max_pages: Optional[int] = None) -> List[Produ
     # first, scrape the first page and find total pages:
     first_result = await SCRAPFLY.async_scrape(ScrapeConfig(url, **BASE_CONFIG))
     results = parse_search(first_result)
+    
+    # Try to extract paging metadata - Amazon has multiple possible selectors
     _paging_meta = first_result.selector.xpath("//*[@cel_widget_id='UPPER-RESULT_INFO_BAR-0']//span/text()").get()
-    _total_results = int(re.findall(r"(?:over\s+)?([\d,]+)\s+results", _paging_meta)[0].replace(',', ''))
-    _results_per_page = int(re.findall(r"\d+-(\d+)", _paging_meta)[0])
+    if not _paging_meta:
+        # Alternative selector for newer Amazon layouts
+        _paging_meta = first_result.selector.css("span.s-pagination-item.s-pagination-disabled::text").get()
+    if not _paging_meta:
+        # Try another alternative
+        _paging_meta = first_result.selector.xpath("//span[contains(text(), 'results for')]/text()").get()
+    
+    if not _paging_meta:
+        log.warning(f"Could not find paging metadata, returning {len(results)} results from first page only")
+        # If we can't determine pagination, just return what we have
+        if max_pages and max_pages > 1 and results:
+            # Try to scrape a few more pages blindly
+            other_pages = [
+                ScrapeConfig(f"{url}&page={page}", **BASE_CONFIG)
+                for page in range(2, min(max_pages + 1, 5))
+            ]
+            async for result in SCRAPFLY.concurrent_scrape(other_pages):
+                if hasattr(result, 'selector'):
+                    results.extend(parse_search(result))
+        return results
+    
+    # Parse the paging metadata
+    total_match = re.findall(r"(?:over\s+)?([\d,]+)\s+results", _paging_meta)
+    if not total_match:
+        total_match = re.findall(r"([\d,]+)", _paging_meta)
+    
+    _total_results = int(total_match[0].replace(',', '')) if total_match else len(results)
+    
+    per_page_match = re.findall(r"\d+-(\d+)", _paging_meta)
+    _results_per_page = int(per_page_match[0]) if per_page_match else 24  # Amazon default
     total_pages = math.ceil(_total_results / _results_per_page)
     if max_pages and total_pages > max_pages:
         total_pages = max_pages
@@ -197,7 +229,8 @@ async def scrape_product(url: str) -> List[Product]:
         url, 
         **BASE_CONFIG, 
         render_js=True, 
-        wait_for_selector="#productDetails_detailBullets_sections1 tr",
+        # Wait for the product title which is always present
+        wait_for_selector="#productTitle",
     ))
     variants = [parse_product(product_result)]
 
