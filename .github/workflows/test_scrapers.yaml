@@ -2,7 +2,8 @@ name: Scraper Tests
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */12 * * *'
+    # Run once a week on Sunday at midnight
+    - cron: '0 0 * * 0'
 
 jobs:
   test:
