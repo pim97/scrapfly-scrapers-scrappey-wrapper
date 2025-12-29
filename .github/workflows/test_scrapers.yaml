@@ -299,6 +299,25 @@ jobs:
     - name: Run test
       env:
         SCRAPPEY_KEY: ${{ secrets.SCRAPPEY_KEY }}
+        SAVE_TEST_RESULTS: "true"
       run: |
         cd ${{ matrix.project_dir }}
-        poetry run pytest test.py -k ${{ matrix.test }}
+        poetry run pytest test.py -k ${{ matrix.test }} -v
+
+    - name: Show sample scraped data
+      if: always()
+      run: |
+        cd ${{ matrix.project_dir }}
+        echo "=== Sample Scraped Data ==="
+        if [ -d "results" ]; then
+          for file in results/*.json; do
+            if [ -f "$file" ]; then
+              echo ""
+              echo "--- $file (first 50 lines) ---"
+              head -50 "$file" || true
+              echo "..."
+            fi
+          done
+        else
+          echo "No results directory found"
+        fi
