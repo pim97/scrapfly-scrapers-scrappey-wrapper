@@ -53,6 +53,8 @@ class ScrapeConfig:
         
         if self.country:
             payload["proxyCountry"] = self._map_country_code(self.country)
+            # Always use premium proxy when country is specified (pool is bigger)
+            payload["premiumProxy"] = True
         
         if self.headers:
             payload["customHeaders"] = self.headers
@@ -69,17 +71,22 @@ class ScrapeConfig:
         if self.data:
             payload["postData"] = self.data
         
+        # Also set premiumProxy if explicitly requested via proxy_pool
         if self.proxy_pool and "residential" in self.proxy_pool.lower():
             payload["premiumProxy"] = True
         
         browser_actions = []
         
         if self.wait_for_selector:
-            browser_actions.append({
+            wait_action = {
                 "type": "wait_for_selector",
                 "cssSelector": self.wait_for_selector,
                 "timeout": 30000
-            })
+            }
+            # Allow ignoring errors for wait_for_selector (won't crash if element not found)
+            if self.extra.get("waitForSelectorIgnoreErrors"):
+                wait_action["ignoreErrors"] = True
+            browser_actions.append(wait_action)
         
         if self.js_scenario:
             for action in self.js_scenario:
