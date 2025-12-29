@@ -4,6 +4,31 @@
 
 This repository contains 46+ educational example scrapers for popular web scraping targets, originally built for ScrapFly, now adapted to work with the Scrappey web scraping API.
 
+## Why Scrappey Over ScrapFly?
+
+| Feature | Scrappey | ScrapFly |
+|---------|----------|----------|
+| **Anti-Bot Bypass** | ✅ Built-in by default, no extra config needed | ⚙️ Requires `asp=True` flag |
+| **Browser Rendering** | ✅ Real browser by default (Chromium-based) | ⚙️ Requires `render_js=True` |
+| **Cloudflare Bypass** | ✅ Automatic Cloudflare, Akamai, PerimeterX bypass | ✅ Available with ASP |
+| **CAPTCHA Solving** | ✅ Automatic CAPTCHA solving included | 💰 Additional cost |
+| **Session Management** | ✅ Persistent sessions with cookies/fingerprints | ✅ Available |
+| **Pricing** | 💰 More affordable for high-volume scraping | 💰 Premium pricing |
+| **API Simplicity** | ✅ Simple JSON-based REST API | ⚙️ SDK required |
+| **Residential Proxies** | ✅ Premium residential with `premiumProxy: true` | ✅ Available |
+
+### Key Advantages of Scrappey
+
+1. **Zero Configuration Anti-Bot** - Scrappey handles anti-bot protection automatically. No need to set flags or worry about detection - it just works out of the box.
+
+2. **Real Browser by Default** - Every request runs through a real Chromium browser instance, ensuring JavaScript-heavy sites render correctly without extra configuration.
+
+3. **Cost Effective** - Better pricing structure for production workloads, especially when you need CAPTCHA solving and premium proxies.
+
+4. **Simpler Integration** - Pure REST API with JSON payloads means you can use any HTTP client. No SDK lock-in required.
+
+5. **Automatic Fingerprint Rotation** - Browser fingerprints are automatically rotated to avoid detection patterns.
+
 ## What's Changed
 
 This fork replaces the ScrapFly SDK with a custom `scrappey_wrapper` module that provides a drop-in replacement for ScrapFly's API. The wrapper translates ScrapFly's interface to Scrappey's API format.
