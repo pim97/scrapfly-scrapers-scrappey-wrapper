@@ -41,14 +41,23 @@ async def scrape_products(urls: List[str]) -> List[Dict]:
     Scrape product data from Fashionphile product pages using the product API.
     """
     urls = convert_to_json_urls(urls)
-    to_scrape = [ScrapeConfig(url, **BASE_CONFIG) for url in urls]
+    # For JSON API endpoints, we don't need JS rendering
+    json_config = {**BASE_CONFIG, "render_js": False}
+    to_scrape = [ScrapeConfig(url, **json_config) for url in urls]
     products = []
     async for response in SCRAPFLY.concurrent_scrape(to_scrape):
-        # Extract just the product data from the JSON content
-        content = response.result['result']['content']
-        product_data = json.loads(content)['product']
-        products.append(product_data)
-        log.success(f"scraped {len(products)} product listings from product pages")
+        try:
+            # Extract just the product data from the JSON content
+            content = response.content
+            if not content or not content.strip():
+                log.warning(f"Empty response for {response.url}")
+                continue
+            product_data = json.loads(content)['product']
+            products.append(product_data)
+            log.success(f"scraped {len(products)} product listings from product pages")
+        except (json.JSONDecodeError, KeyError) as e:
+            log.warning(f"Failed to parse product data: {e}")
+            continue
     return products
 
 

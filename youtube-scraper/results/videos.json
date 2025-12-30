@@ -1,57 +1,6 @@
 [
   {
     "video": {
-      "videoId": "y7FbFJ4jOW8",
-      "title": "Intro to Web Scraping using ScrapFly SDK and Python",
-      "publishingDate": "Jul 17, 2024",
-      "lengthSeconds": 994,
-      "keywords": null,
-      "description": "https://scrapfly.io/ \nhttps://scrapfly.io/docs/sdk/python\n\nThe code used in the video:\nhttps://github.com/scrapfly/sdk-demo\n\nFor more web scraping tutorials, see our blog:\n• Scraping with Python and BeautifulSoup\nhttps://scrapfly.io/blog/web-scraping-with-python-beautifulsoup/\n• Parsing HTML with XPath\nhttps://scrapfly.io/blog/parsing-html-with-xpath/\n• Parsing HTML with CSS selectors\nhttps://scrapfly.io/blog/parsing-html-with-css/\n\nSections:\n00:00 introduction\n00:14 setup \n00:25 Use Overview\n01:25 HTML parser\n01:55 Cache feature\n02:09 Debug feature\n02:26 Request options\n03:00 Anti Scraping Blocking bypass\n03:24 Proxies\n03:50 Cloud Web Browsers\n04:31 Browser Control\n04:50 Extraction API\n08:09 Screenshot API\n10:18 Example Project Overview\n10:46 Setup\n11:32 Scraping Yelp Business Pages\n12:23 Parsing Business Pages\n13:26 Example Scrape Run\n14:04 Scraping Yelp Search\n14:49 Parsing Search Pages\n15:22 Example Scrape Run\n15:48 Summary",
-      "thumbnail": [
-        {
-          "url": "https://i.ytimg.com/vi/y7FbFJ4jOW8/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLA5GZvRYNzbZLUhgoRY_2J6y_XdqQ",
-          "width": 168,
-          "height": 94
-        },
-        {
-          "url": "https://i.ytimg.com/vi/y7FbFJ4jOW8/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLC_K8zCt7q4cG91mY3es1l67tI8EA",
-          "width": 196,
-          "height": 110
-        },
-        {
-          "url": "https://i.ytimg.com/vi/y7FbFJ4jOW8/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBX5dVuSqyj64sOedXyu12O0L9onw",
-          "width": 246,
-          "height": 138
-        },
-        {
-          "url": "https://i.ytimg.com/vi/y7FbFJ4jOW8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD3xuZsWo83LE0s-xxbhvm2otSRjA",
-          "width": 336,
-          "height": 188
-        }
-      ],
-      "stats": {
-        "viewCount": 811,
-        "likeCount": 10,
-        "commentCount": 2
-      }
-    },
-    "channel": {
-      "name": "Scrapfly",
-      "identifierId": "UCoX3U_dywuQf_KbLhWoUCmw",
-      "id": "@scrapfly",
-      "verified": false,
-      "channelUrl": "https://www.youtube.com/@scrapfly",
-      "subscriberCount": "47 subscribers",
-      "thumbnails": [
-        {
-          "url": "https://yt3.ggpht.com/-1WidfW2QQpH4gwy7zm2Rmw2w5yE9MWIS7mn30R7yeEf2BQwG0czf6QeYIwvOIYG1q9X-VXi0g=s88-c-k-c0x00ffffff-no-rj"
-        }
-      ]
-    },
-    "commentContinuationToken": "Eg0SC3k3RmJGSjRqT1c4GAYyJSIRIgt5N0ZiRko0ak9XODAAeAJCEGNvbW1lbnRzLXNlY3Rpb24%3D"
-  },
-  {
-    "video": {
       "videoId": "muo6I9XY8K4",
       "title": "Use AI to extract data from documents using Scrapfly Extraction API",
       "publishingDate": "Jul 11, 2024",
@@ -86,8 +35,8 @@
         }
       ],
       "stats": {
-        "viewCount": 354,
-        "likeCount": 3,
+        "viewCount": 881,
+        "likeCount": 4,
         "commentCount": null
       }
     },
@@ -97,10 +46,10 @@
       "id": "@scrapfly",
       "verified": false,
       "channelUrl": "https://www.youtube.com/@scrapfly",
-      "subscriberCount": "47 subscribers",
+      "subscriberCount": "90 subscribers",
       "thumbnails": [
         {
-          "url": "https://yt3.ggpht.com/-1WidfW2QQpH4gwy7zm2Rmw2w5yE9MWIS7mn30R7yeEf2BQwG0czf6QeYIwvOIYG1q9X-VXi0g=s88-c-k-c0x00ffffff-no-rj"
+          "url": "https://yt3.ggpht.com/vZaW8h45pjSWX0AEif82ImzhIhb5vMk9fz3j3S8PNaGhXr5F4qoHp9veDrL8bmCFr25D__fq=s88-c-k-c0x00ffffff-no-rj"
         }
       ]
     },
@@ -137,8 +86,8 @@
         }
       ],
       "stats": {
-        "viewCount": 296,
-        "likeCount": 4,
+        "viewCount": 974,
+        "likeCount": 7,
         "commentCount": null
       }
     },
@@ -148,13 +97,64 @@
       "id": "@scrapfly",
       "verified": false,
       "channelUrl": "https://www.youtube.com/@scrapfly",
-      "subscriberCount": "47 subscribers",
+      "subscriberCount": "90 subscribers",
       "thumbnails": [
         {
-          "url": "https://yt3.ggpht.com/-1WidfW2QQpH4gwy7zm2Rmw2w5yE9MWIS7mn30R7yeEf2BQwG0czf6QeYIwvOIYG1q9X-VXi0g=s88-c-k-c0x00ffffff-no-rj"
+          "url": "https://yt3.ggpht.com/vZaW8h45pjSWX0AEif82ImzhIhb5vMk9fz3j3S8PNaGhXr5F4qoHp9veDrL8bmCFr25D__fq=s88-c-k-c0x00ffffff-no-rj"
         }
       ]
     },
     "commentContinuationToken": "Eg0SCzFZLVh2dldseXprGAYyJSIRIgsxWS1YdnZXbHl6azAAeAJCEGNvbW1lbnRzLXNlY3Rpb24%3D"
+  },
+  {
+    "video": {
+      "videoId": "y7FbFJ4jOW8",
+      "title": "Intro to Web Scraping using ScrapFly SDK and Python",
+      "publishingDate": "Jul 17, 2024",
+      "lengthSeconds": 994,
+      "keywords": null,
+      "description": "https://scrapfly.io/ \nhttps://scrapfly.io/docs/sdk/python\n\nThe code used in the video:\nhttps://github.com/scrapfly/sdk-demo\n\nFor more web scraping tutorials, see our blog:\n• Scraping with Python and BeautifulSoup\nhttps://scrapfly.io/blog/web-scraping-with-python-beautifulsoup/\n• Parsing HTML with XPath\nhttps://scrapfly.io/blog/parsing-html-with-xpath/\n• Parsing HTML with CSS selectors\nhttps://scrapfly.io/blog/parsing-html-with-css/\n\nSections:\n00:00 introduction\n00:14 setup \n00:25 Use Overview\n01:25 HTML parser\n01:55 Cache feature\n02:09 Debug feature\n02:26 Request options\n03:00 Anti Scraping Blocking bypass\n03:24 Proxies\n03:50 Cloud Web Browsers\n04:31 Browser Control\n04:50 Extraction API\n08:09 Screenshot API\n10:18 Example Project Overview\n10:46 Setup\n11:32 Scraping Yelp Business Pages\n12:23 Parsing Business Pages\n13:26 Example Scrape Run\n14:04 Scraping Yelp Search\n14:49 Parsing Search Pages\n15:22 Example Scrape Run\n15:48 Summary",
+      "thumbnail": [
+        {
+          "url": "https://i.ytimg.com/vi/y7FbFJ4jOW8/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLA5GZvRYNzbZLUhgoRY_2J6y_XdqQ",
+          "width": 168,
+          "height": 94
+        },
+        {
+          "url": "https://i.ytimg.com/vi/y7FbFJ4jOW8/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLC_K8zCt7q4cG91mY3es1l67tI8EA",
+          "width": 196,
+          "height": 110
+        },
+        {
+          "url": "https://i.ytimg.com/vi/y7FbFJ4jOW8/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBX5dVuSqyj64sOedXyu12O0L9onw",
+          "width": 246,
+          "height": 138
+        },
+        {
+          "url": "https://i.ytimg.com/vi/y7FbFJ4jOW8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD3xuZsWo83LE0s-xxbhvm2otSRjA",
+          "width": 336,
+          "height": 188
+        }
+      ],
+      "stats": {
+        "viewCount": 2757,
+        "likeCount": 28,
+        "commentCount": 2
+      }
+    },
+    "channel": {
+      "name": "Scrapfly",
+      "identifierId": "UCoX3U_dywuQf_KbLhWoUCmw",
+      "id": "@scrapfly",
+      "verified": false,
+      "channelUrl": "https://www.youtube.com/@scrapfly",
+      "subscriberCount": "90 subscribers",
+      "thumbnails": [
+        {
+          "url": "https://yt3.ggpht.com/vZaW8h45pjSWX0AEif82ImzhIhb5vMk9fz3j3S8PNaGhXr5F4qoHp9veDrL8bmCFr25D__fq=s88-c-k-c0x00ffffff-no-rj"
+        }
+      ]
+    },
+    "commentContinuationToken": "Eg0SC3k3RmJGSjRqT1c4GAYyJSIRIgt5N0ZiRko0ak9XODAAeAJCEGNvbW1lbnRzLXNlY3Rpb24%3D"
   }
 ]

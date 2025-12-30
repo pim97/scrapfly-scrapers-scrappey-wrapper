@@ -166,19 +166,24 @@
     "productTaxonomy": [],
     "featuredIn": [
       {
-        "name": "Ja 3 'Price of Admission'",
-        "slug": "pdp-custom-links/release-links/tier-3-releases/editorial/ja-3-max-volume-hf2793-600-release-guide",
-        "clickthroughDestination": "editorial/ja-3-max-volume-hf2793-600-release-guide"
+        "name": "Luxury Holiday Gifts",
+        "slug": "pdp-custom-links/release-links/tier-3-releases/collections/luxury-gifts",
+        "clickthroughDestination": "collections/luxury-gifts"
+      },
+      {
+        "name": "Toddler Jordan 11 Gamma Blue",
+        "slug": "pdp-custom-links/release-links/tier-3-releases/sneakers/air-jordan-jordan-11-retro-td-gamma-378040-047",
+        "clickthroughDestination": "sneakers/air-jordan-jordan-11-retro-td-gamma-378040-047"
+      },
+      {
+        "name": "Little Kids Jordan 11 Gamma Blue",
+        "slug": "pdp-custom-links/release-links/tier-3-releases/sneakers/air-jordan-jordan-11-retro-ps-gamma-378039-047",
+        "clickthroughDestination": "sneakers/air-jordan-jordan-11-retro-ps-gamma-378039-047"
       },
       {
         "name": "Jordan 4 'Black Cat' 2025 release date",
         "slug": "pdp-custom-links/release-links/tier-3-releases/editorial/air-jordan-4-retro-black-cat-2025-fv5029-010-release-guide",
         "clickthroughDestination": "editorial/air-jordan-4-retro-black-cat-2025-fv5029-010-release-guide"
-      },
-      {
-        "name": "Jordan 40 'Blue Suede' release date",
-        "slug": "pdp-custom-links/release-links/tier-3-releases/editorial/air-jordan-40-light-armory-blue-hm9931-400-release-guide",
-        "clickthroughDestination": "editorial/air-jordan-40-light-armory-blue-hm9931-400-release-guide"
       }
     ],
     "localizedSpecialDisplayPriceCents": {
@@ -482,14 +487,24 @@
     "productTaxonomy": [],
     "featuredIn": [
       {
-        "name": "Jordan 4 'Denim Worn Blue'",
-        "slug": "pdp-custom-links/release-links/tier-2-releases/sneakers/wmns-air-jordan-4-retro-tex-worn-blue-denim-ib6716-100",
-        "clickthroughDestination": "sneakers/wmns-air-jordan-4-retro-tex-worn-blue-denim-ib6716-100"
+        "name": "AF1 DOAF Oregon 'Duck or Egg' Release Details",
+        "slug": "pdp-custom-links/release-links/tier-2-releases/editorial/nike-air-force-1-doaf-oregon-duck-pe-iu7612-700-release-guide",
+        "clickthroughDestination": "editorial/nike-air-force-1-doaf-oregon-duck-pe-iu7612-700-release-guide"
       },
       {
-        "name": "Jordan 11 'Grand Finale' release date",
-        "slug": "pdp-custom-links/release-links/tier-2-releases/editorial/wmns-air-jordan-11-retro-sail-ar0715-110-release-guide",
-        "clickthroughDestination": "editorial/wmns-air-jordan-11-retro-sail-ar0715-110-release-guide"
+        "name": "AF1 DOAF Oregon 'Egg or Duck' Release Details",
+        "slug": "pdp-custom-links/release-links/tier-2-releases/editorial/nike-air-force-1-doaf-oregon-egg-pe-iu7613-100-release-guide",
+        "clickthroughDestination": "editorial/nike-air-force-1-doaf-oregon-egg-pe-iu7613-100-release-guide"
+      },
+      {
+        "name": "Air Jordan 4 'Flight Club' Release Date",
+        "slug": "pdp-custom-links/release-links/tier-2-releases/editorial/air-jordan-4-retro-flight-club-im4002-100-release-guide",
+        "clickthroughDestination": "editorial/air-jordan-4-retro-flight-club-im4002-100-release-guide"
+      },
+      {
+        "name": "Nike Kobe 1 '81 Points' 2026 Release Date",
+        "slug": "pdp-custom-links/release-links/tier-2-releases/editorial/zoom-kobe-1-protro-81-points-2026-im0542-100-release-guide",
+        "clickthroughDestination": "editorial/zoom-kobe-1-protro-81-points-2026-im0542-100-release-guide"
       },
       {
         "name": "Jordan 4 'Black Cat' 2025 release date",

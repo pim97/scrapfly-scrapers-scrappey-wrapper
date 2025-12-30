@@ -1,5 +1,202 @@
 [
   {
+    "propertyId": "OR-3012-RD",
+    "unitNumber": "610",
+    "streetNumber": "399",
+    "suburb": {
+      "__typename": "Suburb",
+      "slug": "melbourne-vic-3000",
+      "state": "VIC",
+      "region": "Melbourne Region",
+      "area": "Melbourne City Council - Greater Area",
+      "name": "Melbourne",
+      "postcode": "3000"
+    },
+    "postcode": "3000",
+    "gallery": [
+      "https://rimh2.domainstatic.com.au/CcTvS2ShopW1L_KIXmtTBVXxr3A=/filters:format(png):quality(80):no_upscale()/2019233774_11_1_240513_010601-w1600-h1067",
+      "https://rimh2.domainstatic.com.au/7BR4bJqA-dZfuF8gUnBb-bGEAJs=/filters:format(png):quality(80):no_upscale()/2019233774_2_1_240509_050521-w1600-h1067",
+      "https://rimh2.domainstatic.com.au/72X9pxvAH1Wtv5kzZ2_WmyOpxVg=/filters:format(png):quality(80):no_upscale()/2019233774_3_1_240509_050521-w1600-h1067",
+      "https://rimh2.domainstatic.com.au/kNnFHFR6T8i1dOzi96jeSYLTOVI=/filters:format(png):quality(80):no_upscale()/2019233774_4_1_240509_050521-w1600-h1067",
+      "https://rimh2.domainstatic.com.au/MjDV9wN7ejWFNm5qoAZ_VZoaIYk=/filters:format(png):quality(80):no_upscale()/2019233774_5_1_240509_050521-w1600-h1067",
+      "https://rimh2.domainstatic.com.au/7pJa0fkV9uuZDa1d0bFKwEND9Q0=/filters:format(png):quality(80):no_upscale()/2019233774_6_1_240509_050521-w1600-h1067",
+      "https://rimh2.domainstatic.com.au/weNT-2LoWjWKQ26vIMc4u8K3Cds=/filters:format(png):quality(80):no_upscale()/2019233774_7_1_240509_050521-w1600-h1067",
+      "https://rimh2.domainstatic.com.au/CGu-HR7xRsDcVXME1PSGR9iwFmw=/filters:format(png):quality(80):no_upscale()/2019233774_8_1_240509_050521-w1600-h1067",
+      "https://rimh2.domainstatic.com.au/M_E-hr2CMuFnTzB8SHI7b1E_rhQ=/filters:format(png):quality(80):no_upscale()/2019233774_9_1_240513_010601-w1600-h1067",
+      "https://rimh2.domainstatic.com.au/sik7LWnZ4_FyCvx2wQ-2Eo2zG9s=/filters:format(png):quality(80):no_upscale()/2019233774_10_1_240513_010601-w1600-h1067",
+      "https://rimh2.domainstatic.com.au/-Gt6E6Q6voYPyUuBdR8eV6f4zv8=/filters:format(png):quality(80):no_upscale()/2019233774_12_1_240513_010601-w1600-h1067",
+      "https://rimh2.domainstatic.com.au/ADCnB5clDtVjktEIMumr2rCblSA=/filters:format(png):quality(80):no_upscale()/2019233774_13_1_240513_010601-w1600-h1067",
+      "https://rimh2.domainstatic.com.au/2W0XtyaNwoQTZDQ1YAsAYIMcTRo=/filters:format(png):quality(80):no_upscale()/2019233774_14_1_240513_010601-w1600-h1067",
+      "https://rimh2.domainstatic.com.au/zYSANlPjBup8eDMaJkNsexb9o_E=/filters:format(png):quality(80):no_upscale()/2018952550_8_1_231212_020516-w1600-h1067",
+      "https://rimh2.domainstatic.com.au/8Ly1f3IoN0Gi5e1PHfKw1jF6-uE=/filters:format(png):quality(80):no_upscale()/2018952550_11_1_231212_020516-w1600-h1067",
+      "https://rimh2.domainstatic.com.au/4ah1_7t6G0v7iV3D1vnHtqP_wyE=/filters:format(png):quality(80):no_upscale()/2017543110_19_1_220124_050444-w1600-h1067",
+      "https://rimh2.domainstatic.com.au/TGxhgfNOeQ_0PjEakVSjw586Ljg=/filters:format(png):quality(80):no_upscale()/2019233774_15_1_240509_050521-w1600-h1131",
+      "https://rimh2.domainstatic.com.au/2r5gbO6W1mP12sEVr_wq9GoIqHI=/filters:format(png):quality(80):no_upscale()/2019233774_16_3_240509_050521-w1600-h1131",
+      "https://rimh2.domainstatic.com.au/l-HFj1-DCHAZP8F0e-HWTALGcwc=/filters:format(png):quality(80):no_upscale()/2018835548_4_1_231016_011818-w800-h600",
+      "https://rimh2.domainstatic.com.au/AwSZTXxHra1UT5Zh_yoaOrSk9ms=/filters:format(png):quality(80):no_upscale()/2018835548_1_1_231016_011818-w800-h600",
+      "https://rimh2.domainstatic.com.au/EsR00t0FHzVxhK3N7r_zHl4gXXE=/filters:format(png):quality(80):no_upscale()/2018835548_2_1_231016_011818-w800-h600",
+      "https://rimh2.domainstatic.com.au/UPPTwzoojXakKIpXtHaIaVb77oo=/filters:format(png):quality(80):no_upscale()/2018835548_3_1_231016_011818-w800-h600",
+      "https://rimh2.domainstatic.com.au/i9jVZH1GTFiz0UV0UwicYeMIgaU=/filters:format(png):quality(80):no_upscale()/2018835548_5_1_231016_011818-w800-h600",
+      "https://rimh2.domainstatic.com.au/od-Ih6xic21x_9aIzy466-XM258=/filters:format(png):quality(80):no_upscale()/2018835548_6_1_231016_011818-w800-h600",
+      "https://rimh2.domainstatic.com.au/rc75_Q6UEz7WPGO6dhsxmg-R2Bk=/filters:format(png):quality(80):no_upscale()/2018835548_7_1_231016_011818-w800-h600",
+      "https://rimh2.domainstatic.com.au/_dj8YmAFKbrL4rq1GAEjypB9OKw=/filters:format(png):quality(80):no_upscale()/2018835548_8_1_231016_011818-w800-h600",
+      "https://rimh2.domainstatic.com.au/Hqjd_t9gCkiGzLXwPDoNeGEeYOQ=/filters:format(png):quality(80):no_upscale()/2018835548_9_1_231016_011818-w800-h600",
+      "https://rimh2.domainstatic.com.au/QAgUBZSQFpW6eMvw2yTcmOF3syM=/filters:format(png):quality(80):no_upscale()/2018835548_10_1_231016_011818-w800-h600",
+      "https://rimh2.domainstatic.com.au/cfhT9EOhqgyU4I6Zi6D1DkkXC_c=/filters:format(png):quality(80):no_upscale()/2018835548_11_1_231016_011818-w800-h600",
+      "https://rimh2.domainstatic.com.au/hfH5Ti_o6LaPLFJoOtF6fi2ZCMk=/filters:format(png):quality(80):no_upscale()/2018835548_12_1_231016_011818-w800-h600",
+      "https://rimh2.domainstatic.com.au/e6W5VUgCXbVHFkb5NGP75MRwhAs=/filters:format(png):quality(80):no_upscale()/2018498512_13_3_230426_064510-w849-h1200",
+      "https://rimh2.domainstatic.com.au/eWFmO46c43s9lOq0iCi0nltuF4A=/filters:format(png):quality(80):no_upscale()/2015123592_2_1_190404_123241-w1600-h950",
+      "https://rimh2.domainstatic.com.au/MWdwgNHQBpZLMMHA2kcgmk_c6SQ=/filters:format(png):quality(80):no_upscale()/2018498512_2_1_230426_064510-w1600-h1067",
+      "https://rimh2.domainstatic.com.au/ny6i5KWZB5QqCLhcWwHw5xDFrVU=/filters:format(png):quality(80):no_upscale()/2018498512_3_1_230426_064510-w1600-h954",
+      "https://rimh2.domainstatic.com.au/NPMEvR3kd-TfUtE0KSrwE7MCRYM=/filters:format(png):quality(80):no_upscale()/2015123592_6_1_190404_123240-w1600-h937",
+      "https://rimh2.domainstatic.com.au/WYQUzKTApk4Q3wPXCzqZOvogiHY=/filters:format(png):quality(80):no_upscale()/2018498512_5_1_230426_064510-w1600-h955",
+      "https://rimh2.domainstatic.com.au/jAnDhj95iVzu3mcm3BiARzOqyK4=/filters:format(png):quality(80):no_upscale()/2018498512_6_1_230426_064510-w1600-h952",
+      "https://rimh2.domainstatic.com.au/0Ah25O-D7lwR0SmGsi9p716epo0=/filters:format(png):quality(80):no_upscale()/2018498512_7_1_230426_064510-w1600-h1067",
+      "https://rimh2.domainstatic.com.au/Ftow9gVS0KnieXMzxO_5BDexy1Q=/filters:format(png):quality(80):no_upscale()/2018498512_8_1_230426_064510-w1600-h1067",
+      "https://rimh2.domainstatic.com.au/2RvXZXW8OeIkxYiNjq7rZuzCEaY=/filters:format(png):quality(80):no_upscale()/2018498512_9_1_230426_064510-w1600-h1067",
+      "https://rimh2.domainstatic.com.au/9pPyjYz7Sy60XOUDutDruHsVBMQ=/filters:format(png):quality(80):no_upscale()/2017302276_7_1_211006_014252-w1600-h1200",
+      "https://rimh2.domainstatic.com.au/VtuudyNv4I4fmVgfLOPokVOmWoE=/filters:format(png):quality(80):no_upscale()/2018498512_11_1_230426_064510-w1600-h1200",
+      "https://rimh2.domainstatic.com.au/KcElTUL4NKMMnTk5gp3oAJNVLvk=/filters:format(png):quality(80):no_upscale()/2018498512_12_1_230426_064510-w983-h1200",
+      "https://rimh2.domainstatic.com.au/FKXrANii4iBHhvjfZi23iOleqIk=/filters:format(png):quality(80):no_upscale()/15369536_1_1_211026_095801-w2000-h1333",
+      "https://rimh2.domainstatic.com.au/A6aRZjYP1zLMwjSY0_e6jFQZ_mc=/filters:format(png):quality(80):no_upscale()/15369536_3_1_211026_095801-w2000-h1333",
+      "https://rimh2.domainstatic.com.au/vztdAJiPv-zVlVRncP2WUKmHanE=/filters:format(png):quality(80):no_upscale()/15369536_4_1_211026_095801-w2000-h1333",
+      "https://rimh2.domainstatic.com.au/WFAm6zJ3g4vulGRpLKAFXhpIiRc=/filters:format(png):quality(80):no_upscale()/15369536_5_1_211026_095801-w2000-h1333",
+      "https://rimh2.domainstatic.com.au/Uw23JIQ8ZCiRgy-kkCpwVRWtaYg=/filters:format(png):quality(80):no_upscale()/15369536_6_1_211026_095801-w2000-h1333",
+      "https://rimh2.domainstatic.com.au/MuLIeqx6mFId-Xgwc2tU-ODNBcc=/filters:format(png):quality(80):no_upscale()/15369536_7_1_211026_095801-w2000-h1333",
+      "https://rimh2.domainstatic.com.au/Wp08GAuIrySH5AHkbTOCuNRz75U=/filters:format(png):quality(80):no_upscale()/15369536_8_1_211026_095801-w2000-h1333",
+      "https://rimh2.domainstatic.com.au/gO_OzY6r1X1o2cG4AFMeZmszN38=/filters:format(png):quality(80):no_upscale()/15369536_9_1_211026_095801-w2000-h1333",
+      "https://rimh2.domainstatic.com.au/dJkHvPPk1nJ-zqPVJNv50gtG1dk=/filters:format(png):quality(80):no_upscale()/15369536_10_1_210906_110234-w1600-h1200",
+      "https://rimh2.domainstatic.com.au/wQwz7MaU5jqUtQ0HIcF_LGsn1Bw=/filters:format(png):quality(80):no_upscale()/15369536_11_1_210906_110234-w1600-h1200",
+      "https://rimh2.domainstatic.com.au/2DCKE8DlkNZiHJWLjqQbNokkL2g=/filters:format(png):quality(80):no_upscale()/15369536_12_3_210906_110234-w2480-h3508",
+      "https://rimh2.domainstatic.com.au/NxOB_O2C4sLJtVtSE1nANhBWKVw=/filters:format(png):quality(80):no_upscale()/2015123592_1_1_190404_123241-w1600-h1200",
+      "https://rimh2.domainstatic.com.au/3YMhJm9lddpXsSVJciKXVPyfeBA=/filters:format(png):quality(80):no_upscale()/2015123592_5_1_190404_123240-w1600-h952",
+      "https://rimh2.domainstatic.com.au/4mrM4gFc5mWje2YK8XY8JTyu8o0=/filters:format(png):quality(80):no_upscale()/2015123592_3_1_190404_123241-w1600-h954",
+      "https://rimh2.domainstatic.com.au/g4T4oXZE0ANzQYUz0v9iLDh4voQ=/filters:format(png):quality(80):no_upscale()/2015123592_4_1_190404_123240-w1600-h955",
+      "https://rimh2.domainstatic.com.au/lUa9BFnn7JG68xUlzlz5qFl7ADM=/filters:format(png):quality(80):no_upscale()/2015123592_7_1_190404_123240-w1600-h1067",
+      "https://rimh2.domainstatic.com.au/kKYA-RpoOQTub_mT_76Xs7jZopw=/filters:format(png):quality(80):no_upscale()/2015123592_8_1_190404_123240-w1600-h1067",
+      "https://rimh2.domainstatic.com.au/y4AMr5eQyXygIxUlh-1596elSec=/filters:format(png):quality(80):no_upscale()/2015123592_9_1_190404_123240-w1600-h1067",
+      "https://rimh2.domainstatic.com.au/CqzO_-sloon3eYCQcKUsFWYZJQ8=/filters:format(png):quality(80):no_upscale()/2015123592_11_1_190404_123240-w1600-h1200",
+      "https://rimh2.domainstatic.com.au/zq1SOurls0OFCuwo7pAl6GsDMJs=/filters:format(png):quality(80):no_upscale()/2015123592_10_1_190404_123240-w1600-h1200",
+      "https://rimh2.domainstatic.com.au/TfJ8B-Gmf1KF6-1V8Ti9csTJ248=/filters:format(png):quality(80):no_upscale()/2015123592_12_3_190404_123240-w1132-h1600",
+      "https://rimh2.domainstatic.com.au/engjBfDByyYTLXE1b-xax8wAJws=/filters:format(png):quality(80):no_upscale()/2013461512_1_pi_170502_061033-w1600-h1200",
+      "https://rimh2.domainstatic.com.au/r4i9Hx6TgzecX7SrgvEUhfBoQLc=/filters:format(png):quality(80):no_upscale()/2013461512_2_pi_170502_061033-w1600-h1067",
+      "https://rimh2.domainstatic.com.au/yZGJVnXxXsb0yJ2NzRixM7V389U=/filters:format(png):quality(80):no_upscale()/2013461512_3_pi_170502_061033-w1600-h1200",
+      "https://rimh2.domainstatic.com.au/mKADxE1mvZneifLz3sjjN4QHsRg=/filters:format(png):quality(80):no_upscale()/2013461512_4_pi_170502_061033-w1600-h1067",
+      "https://rimh2.domainstatic.com.au/GUlujjRr-NTYN0xnVU5IwDlwMPc=/filters:format(png):quality(80):no_upscale()/2013461512_5_pi_170502_061035-w1600-h1200",
+      "https://rimh2.domainstatic.com.au/EcjLn8ZQ7iy2gtfj9yZulb59Yxs=/filters:format(png):quality(80):no_upscale()/2013461512_6_pi_170502_061037-w1600-h1067",
+      "https://rimh2.domainstatic.com.au/Ry10gv8ioWsbC9sPyZ5EhAWeKHE=/filters:format(png):quality(80):no_upscale()/2013461512_7_fi_170502_061038-w1131-h1600",
+      "https://rimh2.domainstatic.com.au/tPF0NQpd-7Vp2dndIjqC2Zr3_Sw=/filters:format(png):quality(80):no_upscale()/2013381445_1_pi_170317_055501-w1024-h683",
+      "https://rimh2.domainstatic.com.au/bzPMD8pZxGIucWqI1cwCKQDKicc=/filters:format(png):quality(80):no_upscale()/2013381445_2_pi_170317_055503-w1024-h683",
+      "https://rimh2.domainstatic.com.au/Xr9vqirPZQTCwKa89PJtv-KgMu0=/filters:format(png):quality(80):no_upscale()/2013381445_3_pi_170317_055501-w1024-h683",
+      "https://rimh2.domainstatic.com.au/ICm1wj9MfxPBIenwVg2uyZeV9ik=/filters:format(png):quality(80):no_upscale()/2013381445_4_pi_170317_055502-w1024-h683",
+      "https://rimh2.domainstatic.com.au/MBLnHuOKAgnK-Hi8PFFw6osq770=/filters:format(png):quality(80):no_upscale()/2013381445_5_pi_170317_055501-w1024-h683",
+      "https://rimh2.domainstatic.com.au/q6KUFitcYkxSfHwrI2tsdnw8kvk=/filters:format(png):quality(80):no_upscale()/2013381445_6_pi_170317_055502-w1000-h667",
+      "https://rimh2.domainstatic.com.au/PJJgeGK42DCZQtaobzL7-65msIQ=/filters:format(png):quality(80):no_upscale()/2013381445_7_pi_170317_055501-w1000-h667",
+      "https://rimh2.domainstatic.com.au/wK6u672xF2xdUBTpvc8cbEJw6Fc=/filters:format(png):quality(80):no_upscale()/2013381445_8_pi_170317_055503-w1000-h667",
+      "https://rimh2.domainstatic.com.au/Yi5-reVpB_Q8ngPrQe7ZgYzHeHQ=/filters:format(png):quality(80):no_upscale()/2013381445_9_pi_170317_055503-w1024-h683",
+      "https://rimh2.domainstatic.com.au/jh3Clv36piTimby3U9upvLnM8FI=/filters:format(png):quality(80):no_upscale()/2013381445_10_fi_170317_055505-w544-h768",
+      "https://rimh2.domainstatic.com.au/CiUfPVtktUn1ejxkxQDy32_ep5w=/filters:format(png):quality(80):no_upscale()/w1024-h683-9862933_1_pi_150625_060325",
+      "https://rimh2.domainstatic.com.au/bEB6bk-MmxKN1HHG5R_sW4mCb18=/filters:format(png):quality(80):no_upscale()/w1024-h683-9862933_2_pi_150625_060325",
+      "https://rimh2.domainstatic.com.au/JTuVINjTEoJfV8gOF7J-zSEjJvA=/filters:format(png):quality(80):no_upscale()/w1024-h683-9862933_3_pi_150625_060325",
+      "https://rimh2.domainstatic.com.au/TKkdb9LvibWK8GkNjFJFG7FR75w=/filters:format(png):quality(80):no_upscale()/w1024-h683-9862933_4_pi_150625_060325",
+      "https://rimh2.domainstatic.com.au/3NuwFgOzKsdtyOfNSciOukLGwk8=/filters:format(png):quality(80):no_upscale()/w1024-h683-9862933_5_pi_150625_060325",
+      "https://rimh2.domainstatic.com.au/xJPnsb_QP65Rx9ynZWlaEXFH6fY=/filters:format(png):quality(80):no_upscale()/w1024-h683-9862933_6_pi_150625_060326",
+      "https://rimh2.domainstatic.com.au/Nl7Oqhk6_tqRq5SZpQoglJfHV6c=/filters:format(png):quality(80):no_upscale()/w774-h768-9862933_7_pi_150625_060326",
+      "https://rimh2.domainstatic.com.au/PamV78UXsyIctirJW0xSnhDoPgw=/filters:format(png):quality(80):no_upscale()/w1000-h667-2011317327_1_pi_150328_105202",
+      "https://rimh2.domainstatic.com.au/rsSkh_Jqlzk3jXDE3Iy-kEvF9io=/filters:format(png):quality(80):no_upscale()/w1000-h667-2011317327_2_pi_150328_105202",
+      "https://rimh2.domainstatic.com.au/dPuNAzLM_F24DxH_UTYRSCIVFss=/filters:format(png):quality(80):no_upscale()/w1000-h667-2011317327_3_pi_150328_105202",
+      "https://rimh2.domainstatic.com.au/vK401H8VhVNG7je8OeVbKrKrvCQ=/filters:format(png):quality(80):no_upscale()/w1000-h667-2011317327_4_pi_150328_105203",
+      "https://rimh2.domainstatic.com.au/OMdjyXrY8_j0Iya9yJmol1ZCSI8=/filters:format(png):quality(80):no_upscale()/w1000-h667-2011317327_5_pi_150328_105203",
+      "https://rimh2.domainstatic.com.au/FzSrghbXBwHdtyN4CP56d2Pc1yg=/filters:format(png):quality(80):no_upscale()/w1000-h667-2011317327_6_pi_150328_105203",
+      "https://rimh2.domainstatic.com.au/wFQQV2OtLSij1tTG0FUSx8q0-pw=/filters:format(png):quality(80):no_upscale()/w1000-h667-2011317327_7_pi_150328_105203",
+      "https://rimh2.domainstatic.com.au/3WN7YBno__07BQc4mP8NjZw-YZg=/filters:format(png):quality(80):no_upscale()/w480-h768-2011317327_8_fi_150328_120142",
+      "https://rimh2.domainstatic.com.au/7VMl68kNV6kZICkVnTWEu-ocoz8=/filters:format(png):quality(80):no_upscale()/w800-h600-6778467_1_pi_150302_035018",
+      "https://rimh2.domainstatic.com.au/LOtna2cSX3SpWzi-t0b2g_gvwY8=/filters:format(png):quality(80):no_upscale()/w800-h600-6778467_2_pi_150302_035018",
+      "https://rimh2.domainstatic.com.au/6F2RPQGuQqXJBL4AS02zJnfQaeo=/filters:format(png):quality(80):no_upscale()/w800-h600-6778467_3_pi_150302_035018",
+      "https://rimh2.domainstatic.com.au/iR1bAYuCwnwvtiPgCbbhBZkL_UU=/filters:format(png):quality(80):no_upscale()/w800-h600-6778467_4_pi_150302_035018",
+      "https://rimh2.domainstatic.com.au/_rEdtsn9dLkCFynyDSjQdvoZxPM=/filters:format(png):quality(80):no_upscale()/w800-h600-6778467_5_pi_150302_035018",
+      "https://rimh2.domainstatic.com.au/yePWAcRtlzzKa-woWWAFgJbdIDo=/filters:format(png):quality(80):no_upscale()/w800-h600-6778467_6_pi_150302_035018",
+      "https://rimh2.domainstatic.com.au/0sP6cqYl5fNISkMMZyEaGILj3sQ=/filters:format(png):quality(80):no_upscale()/w450-h600-6778467_7_pi_150302_035018"
+    ],
+    "url": "https://www.domain.com.au/property-profile/610-399-bourke-street-melbourne-vic-3000"
+  },
+  {
+    "propertyId": "TO-9170-EN",
+    "unitNumber": "308",
+    "streetNumber": "9",
+    "suburb": {
+      "__typename": "Suburb",
+      "slug": "melbourne-vic-3000",
+      "state": "VIC",
+      "region": "Melbourne Region",
+      "area": "Melbourne City Council - Greater Area",
+      "name": "Melbourne",
+      "postcode": "3000"
+    },
+    "postcode": "3000",
+    "gallery": [
+      "https://rimh2.domainstatic.com.au/SMq293LgvetN5pJkEBcRYQo1joo=/filters:format(png):quality(80):no_upscale()/2019116730_6_1_240314_014626-w4500-h3000",
+      "https://rimh2.domainstatic.com.au/2Gki_TxzcD_88HYGOoKDwMpQwRc=/filters:format(png):quality(80):no_upscale()/2019116730_1_1_240314_014626-w4500-h3000",
+      "https://rimh2.domainstatic.com.au/EqHnTCX1xj-xty1HH9iRJ9OrXmc=/filters:format(png):quality(80):no_upscale()/2019116730_2_1_240314_014626-w4500-h3000",
+      "https://rimh2.domainstatic.com.au/_3r0SdSP2dK31oXt-hAmarINmEQ=/filters:format(png):quality(80):no_upscale()/2019116730_3_1_240314_014626-w4500-h3000",
+      "https://rimh2.domainstatic.com.au/Tlf9MOIneu3Ls59AJ2-gHQ4XxD0=/filters:format(png):quality(80):no_upscale()/2019116730_4_1_240314_014626-w4500-h3000",
+      "https://rimh2.domainstatic.com.au/XxyC7T25GkHpUAzaGMXLxnMA9kg=/filters:format(png):quality(80):no_upscale()/2019116730_5_1_240314_014626-w4500-h3000",
+      "https://rimh2.domainstatic.com.au/bT0vur46FQOpIl7xPSmvLOzPdq8=/filters:format(png):quality(80):no_upscale()/2019116730_7_1_240314_014626-w4500-h3000",
+      "https://rimh2.domainstatic.com.au/40W0_xmYCCfeGdukCyH7o0jfba0=/filters:format(png):quality(80):no_upscale()/2019116730_8_1_240314_014626-w4500-h3000",
+      "https://rimh2.domainstatic.com.au/i38Ii37dATrnjeBbmLnPi-GElsE=/filters:format(png):quality(80):no_upscale()/2019116730_9_1_240314_014626-w4500-h3000",
+      "https://rimh2.domainstatic.com.au/xpWEIeq-gtZnLeyktXK-n-UbjbE=/filters:format(png):quality(80):no_upscale()/2019116730_10_1_240314_014626-w4500-h3000",
+      "https://rimh2.domainstatic.com.au/AuCQkpG7kXpOvPsGKZqZSfmfosc=/filters:format(png):quality(80):no_upscale()/2019116730_11_1_240314_014626-w4500-h3000",
+      "https://rimh2.domainstatic.com.au/mqlyaeCXHhqE4pfHccHgp8WzAD4=/filters:format(png):quality(80):no_upscale()/14807562_11_1_210105_103058-w3898-h2598",
+      "https://rimh2.domainstatic.com.au/F8AFwM8R5T3mIP8BPjNrN8X19Bc=/filters:format(png):quality(80):no_upscale()/2018489487_8_1_230614_105227-w4500-h3000",
+      "https://rimh2.domainstatic.com.au/KsD5bQoBONLp3B7Fp6jxJJw61Ys=/filters:format(png):quality(80):no_upscale()/2018489487_10_1_230614_105227-w4500-h3000",
+      "https://rimh2.domainstatic.com.au/E31loEuLR8tOu0c2hzO0lvwxT9w=/filters:format(png):quality(80):no_upscale()/2019116730_15_3_240314_014626-w3508-h2480",
+      "https://rimh2.domainstatic.com.au/EEbfwxpYcx295egg7_ADPyyeiu0=/filters:format(png):quality(80):no_upscale()/2019116730_16_3_240314_014626-w3508-h2480",
+      "https://rimh2.domainstatic.com.au/TUZXvVot1frrhFDNN-iV7oLG1uU=/filters:format(png):quality(80):no_upscale()/13549810_2_1_190912_055022-w800-h600",
+      "https://rimh2.domainstatic.com.au/a81YZALIU37HqFD6I5_S639efmo=/filters:format(png):quality(80):no_upscale()/13549810_1_1_190912_055022-w709-h532",
+      "https://rimh2.domainstatic.com.au/uctrsOPEj57gTg5y4FvIpvIqv-Y=/filters:format(png):quality(80):no_upscale()/13549810_3_1_190912_055022-w800-h600",
+      "https://rimh2.domainstatic.com.au/1-oYOwgxkFDKmtl5YkEAIaY4W6s=/filters:format(png):quality(80):no_upscale()/13549810_4_1_190912_054959-w709-h532",
+      "https://rimh2.domainstatic.com.au/6MrpVrj0bwzEk78pzjaFOoOZGzc=/filters:format(png):quality(80):no_upscale()/14972995_5_1_210324_063243-w1200-h900",
+      "https://rimh2.domainstatic.com.au/D2u7EX-2O0WSFzJX3sVls9x8wlc=/filters:format(png):quality(80):no_upscale()/13549810_5_1_190912_054959-w709-h532",
+      "https://rimh2.domainstatic.com.au/J_db7yO20kRjxrKRplnbCQqnzHQ=/filters:format(png):quality(80):no_upscale()/13549810_6_1_190912_054959-w800-h600",
+      "https://rimh2.domainstatic.com.au/Y3GvyBBfPuiZ76MQoXnvHE1r7Ec=/filters:format(png):quality(80):no_upscale()/13549810_7_1_190912_054959-w800-h600",
+      "https://rimh2.domainstatic.com.au/QelawZ3y-GhUJxWtL4PPu3ZgbTQ=/filters:format(png):quality(80):no_upscale()/13549810_8_1_190912_054959-w619-h464",
+      "https://rimh2.domainstatic.com.au/ulmIPpTm6OKnhygcufEOTvdyMlM=/filters:format(png):quality(80):no_upscale()/12882192_7_1_190129_095112-w1754-h1240",
+      "https://rimh2.domainstatic.com.au/QFzgynW3_Zd_h5Si7VY2xUZgoG8=/filters:format(png):quality(80):no_upscale()/w800-h532-11064877_1_pi_161221_044850",
+      "https://rimh2.domainstatic.com.au/gp5kEAKqTpUcMyeZSYDJ_Z9eX1g=/filters:format(png):quality(80):no_upscale()/w1024-h681-11064877_2_pi_161221_044850",
+      "https://rimh2.domainstatic.com.au/kMp-d54qcMB_JGyn31HypOQ6AA4=/filters:format(png):quality(80):no_upscale()/w1024-h681-11064877_3_pi_161221_044850",
+      "https://rimh2.domainstatic.com.au/qFVMUNIDrhPklhX7wEQ9Qzr2nMw=/filters:format(png):quality(80):no_upscale()/w800-h532-11064877_4_pi_161221_044850",
+      "https://rimh2.domainstatic.com.au/teqx2LbY663X0lbYuEpdRjxDRcw=/filters:format(png):quality(80):no_upscale()/w800-h532-11064877_5_pi_161221_044850",
+      "https://rimh2.domainstatic.com.au/nIowtnF4KQ84_4b8fQ54YfobJac=/filters:format(png):quality(80):no_upscale()/w975-h650-11064877_6_pi_161221_050339",
+      "https://rimh2.domainstatic.com.au/e_oEp-cQiWLi5pYOF0PBV_0awl8=/filters:format(png):quality(80):no_upscale()/w1024-h682-11064877_7_pi_161221_050338",
+      "https://rimh2.domainstatic.com.au/VEeXLOUYRuN6YuKAR26UYzJbF88=/filters:format(png):quality(80):no_upscale()/w800-h464-11064877_8_pi_161221_050339",
+      "https://rimh2.domainstatic.com.au/mchWbssSVcj29eeh5eGArIm0Uno=/filters:format(png):quality(80):no_upscale()/w779-h497-11064877_6_pi_161221_044851",
+      "https://rimh2.domainstatic.com.au/QiuYsd0pAUL0oWQebe4c5If84j4=/filters:format(png):quality(80):no_upscale()/w1024-h681-10258099_1_pi_151223_120019",
+      "https://rimh2.domainstatic.com.au/tM1KamhUpAqkEUZ0w5SKBq8Sfgc=/filters:format(png):quality(80):no_upscale()/w1024-h681-10258099_2_pi_151223_120019",
+      "https://rimh2.domainstatic.com.au/2RmtBRW_gYjSt1CWMFSLjhRVyLQ=/filters:format(png):quality(80):no_upscale()/w1024-h681-10258099_3_pi_151223_120019",
+      "https://rimh2.domainstatic.com.au/7hPoZ8ekfDFnrCXi8K-58ub3mMI=/filters:format(png):quality(80):no_upscale()/w1024-h681-10258099_4_pi_151223_120019",
+      "https://rimh2.domainstatic.com.au/KzLBC783pxnHkw1lWOHRKqj8dTE=/filters:format(png):quality(80):no_upscale()/w1024-h681-10258099_5_pi_151223_120021",
+      "https://rimh2.domainstatic.com.au/0Sw8lH_4D3JtupEHcVXctTMjWjI=/filters:format(png):quality(80):no_upscale()/w1024-h681-9958705_5_pi_150807_050535",
+      "https://rimh2.domainstatic.com.au/8KBL1wf-h5Ttz3xZ3oNpBm_1Oo4=/filters:format(png):quality(80):no_upscale()/w1024-h681-9958705_2_pi_150807_050534",
+      "https://rimh2.domainstatic.com.au/oPbvBoEjJHWMJ1_5DkOKoY839R8=/filters:format(png):quality(80):no_upscale()/w1024-h681-9958705_1_pi_150807_050534",
+      "https://rimh2.domainstatic.com.au/7ErhN0khS-wdC6fgkMEFb6C1WY8=/filters:format(png):quality(80):no_upscale()/w1024-h681-9958705_3_pi_150807_050534",
+      "https://rimh2.domainstatic.com.au/ro8QN2qr4qmc-Ei-m1N2zxyjxVs=/filters:format(png):quality(80):no_upscale()/w1024-h681-9958705_4_pi_150807_050534",
+      "https://rimh2.domainstatic.com.au/tJ8sUFHc-yGJrm2UwBvmJKMrwEA=/filters:format(png):quality(80):no_upscale()/w774-h490-9958705_6_pi_150819_054023",
+      "https://rimh2.domainstatic.com.au/mEqYCkOdq12-Zhw_AIxZZ_qAQLg=/filters:format(png):quality(80):no_upscale()/w800-h532-9163260_1_pi_150328_100515",
+      "https://rimh2.domainstatic.com.au/5WjeHVp8-FStSw-GGNxOJoHa6Z8=/filters:format(png):quality(80):no_upscale()/w768-h511-9163260_2_pi_150328_100515",
+      "https://rimh2.domainstatic.com.au/Hvg7LX4tT8DnFp4nU7mew-I4np8=/filters:format(png):quality(80):no_upscale()/w800-h532-9163260_3_pi_150328_100516",
+      "https://rimh2.domainstatic.com.au/onjcKKKZ5hVBmYwYda2KGWS_Vwg=/filters:format(png):quality(80):no_upscale()/w800-h532-9163260_4_pi_150328_100516",
+      "https://rimh2.domainstatic.com.au/XkJwWFgASHR0fSZRBW_2ZFul5AE=/filters:format(png):quality(80):no_upscale()/w800-h532-9163260_5_pi_150329_010120",
+      "https://rimh2.domainstatic.com.au/9GfE5vFfBOBW9PFXruz3lazbliI=/filters:format(png):quality(80):no_upscale()/w559-h867-9163260_6_fi_150329_010120",
+      "https://rimh2.domainstatic.com.au/vvUk1YjB-otBfiOFiE2Du5sKznw=/filters:format(png):quality(80):no_upscale()/w800-h531-2011161925_1_pi_150324_104321",
+      "https://rimh2.domainstatic.com.au/ic1mli-hK5gWWRys4UPClW830ds=/filters:format(png):quality(80):no_upscale()/w800-h526-2011161925_2_pi_150324_104321",
+      "https://rimh2.domainstatic.com.au/EJvlWS4oeJW4cqCQTMLwyD0wQg8=/filters:format(png):quality(80):no_upscale()/w800-h531-2011161925_3_pi_150324_104321",
+      "https://rimh2.domainstatic.com.au/R1Enw502ztayzSxQ3WixcLLOWPA=/filters:format(png):quality(80):no_upscale()/w800-h531-2011161925_4_pi_150324_104321",
+      "https://rimh2.domainstatic.com.au/8efJZcPmPMV3T4zUmJUJlIUzxPU=/filters:format(png):quality(80):no_upscale()/w800-h522-2011161925_5_pi_150324_104321",
+      "https://rimh2.domainstatic.com.au/BaQzabXzOWXhze_WCNxmuq0d8Oo=/filters:format(png):quality(80):no_upscale()/w1754-h1240-2011161925_6_fi_150325_021149"
+    ],
+    "url": "https://www.domain.com.au/property-profile/308-9-degraves-street-melbourne-vic-3000"
+  },
+  {
     "listingId": 17773317,
     "listingUrl": "https://www.domain.com.au/1518-474-flinders-street-melbourne-vic-3000-17773317",
     "unitNumber": "1518",
@@ -93,21 +290,6 @@
       {
         "id": "",
         "educationLevel": "secondary",
-        "name": "Hester Hornbrook Academy",
-        "distance": 1123.1002675757093,
-        "state": "VIC",
-        "postCode": "3000",
-        "year": "10-12",
-        "gender": "CoEd",
-        "type": "Private",
-        "address": "Melbourne, VIC 3000",
-        "url": "https://www.melbournecitymission.org.au/services/.../hester-hornbrook-academy",
-        "domainSeoUrlSlug": "hester-hornbrook-academy-vic-3205-52517",
-        "status": "Open"
-      },
-      {
-        "id": "",
-        "educationLevel": "secondary",
         "name": "Ozford College - Ozford College Campus",
         "distance": 1369.9506228202174,
         "state": "VIC",
@@ -133,6 +315,21 @@
         "address": "Melbourne, VIC 3000",
         "url": "http://www.ozford.edu.au",
         "domainSeoUrlSlug": "ozford-college-vic-3000-40714",
+        "status": "Open"
+      },
+      {
+        "id": "",
+        "educationLevel": "secondary",
+        "name": "Stott's Colleges",
+        "distance": 1422.3079386298687,
+        "state": "VIC",
+        "postCode": "3000",
+        "year": "11-12",
+        "gender": "",
+        "type": "Private",
+        "address": "Melbourne, VIC 3000",
+        "url": "https://www.stotts.edu.au/",
+        "domainSeoUrlSlug": "stotts-colleges-vic-3000-50313",
         "status": "Open"
       },
       {
@@ -270,20 +467,20 @@
     "gallery": {
       "slides": [
         {
-          "thumbnail": "https://rimh2.domainstatic.com.au/Nx0pRLMani-3k3itC4sZBNXMh40=/fit-in/144x106/filters:format(jpeg):quality(80):no_upscale()/17140018_1_1_240731_105822-w3000-h2000",
+          "thumbnail": "https://rimh2.domainstatic.com.au/GiwWzdBxTGtIY4sjePSW1QS-6eg=/fit-in/144x106/filters:format(webp):quality(85):no_upscale()/17140018_1_1_240731_105822-w3000-h2000",
           "images": {
             "original": {
-              "url": "https://rimh2.domainstatic.com.au/Ueq3Z-qu4wGvDTHQOrkuMx_2woE=/fit-in/1920x1080/filters:format(jpeg):quality(80):no_upscale()/17140018_1_1_240731_105822-w3000-h2000",
+              "url": "https://rimh2.domainstatic.com.au/rkPB1UygdVdFDcWkyyfCpdbCvfs=/fit-in/1920x1080/filters:format(webp):quality(85):no_upscale()/17140018_1_1_240731_105822-w3000-h2000",
               "width": 1620,
               "height": 1080
             },
             "tablet": {
-              "url": "https://rimh2.domainstatic.com.au/QJtUfAhcQ2cPw_Gkh23gfF1c2UY=/fit-in/1020x1020/filters:format(jpeg):quality(80):no_upscale()/17140018_1_1_240731_105822-w3000-h2000",
+              "url": "https://rimh2.domainstatic.com.au/mRC5iuXRSoQM2Bwarp0zr7IcUeA=/fit-in/1020x1020/filters:format(webp):quality(85):no_upscale()/17140018_1_1_240731_105822-w3000-h2000",
               "width": 1020,
               "height": 680
             },
             "mobile": {
-              "url": "https://rimh2.domainstatic.com.au/_2rlnosm36e2vXiVBQ4KC62Ft74=/fit-in/600x800/filters:format(jpeg):quality(80):no_upscale()/17140018_1_1_240731_105822-w3000-h2000",
+              "url": "https://rimh2.domainstatic.com.au/bF2LeqzTBnIX9ITuDTXuffQxMt8=/fit-in/600x800/filters:format(webp):quality(85):no_upscale()/17140018_1_1_240731_105822-w3000-h2000",
               "width": 600,
               "height": 400
             }
@@ -292,20 +489,20 @@
           "mediaType": "image"
         },
         {
-          "thumbnail": "https://rimh2.domainstatic.com.au/6epjaXQI7pjpgaIczPVvwEHtMSs=/fit-in/144x106/filters:format(jpeg):quality(80):no_upscale()/17140018_2_1_240731_105822-w3000-h2000",
+          "thumbnail": "https://rimh2.domainstatic.com.au/1UQIYvK2B2jAGg-kG6Qc6t4gqAU=/fit-in/144x106/filters:format(webp):quality(85):no_upscale()/17140018_2_1_240731_105822-w3000-h2000",
           "images": {
             "original": {
-              "url": "https://rimh2.domainstatic.com.au/KvPAHCN5SC1XUbI4Xm1DoqEgu9U=/fit-in/1920x1080/filters:format(jpeg):quality(80):no_upscale()/17140018_2_1_240731_105822-w3000-h2000",
+              "url": "https://rimh2.domainstatic.com.au/RRjDWlW5APWC__sQuFq_q0RXw10=/fit-in/1920x1080/filters:format(webp):quality(85):no_upscale()/17140018_2_1_240731_105822-w3000-h2000",
               "width": 1620,
               "height": 1080
             },
             "tablet": {
-              "url": "https://rimh2.domainstatic.com.au/4b0vWa90A7Oi68CE1IYuliuvbGY=/fit-in/1020x1020/filters:format(jpeg):quality(80):no_upscale()/17140018_2_1_240731_105822-w3000-h2000",
+              "url": "https://rimh2.domainstatic.com.au/WJGjuNpDG7g5sOk73ykuiq1LAe0=/fit-in/1020x1020/filters:format(webp):quality(85):no_upscale()/17140018_2_1_240731_105822-w3000-h2000",
               "width": 1020,
               "height": 680
             },
             "mobile": {
-              "url": "https://rimh2.domainstatic.com.au/HjsNveRr_sO__tTZSlImFVMuX6U=/fit-in/600x800/filters:format(jpeg):quality(80):no_upscale()/17140018_2_1_240731_105822-w3000-h2000",
+              "url": "https://rimh2.domainstatic.com.au/XtFIhhU-1jQ6leMqkXc-q9HwKvE=/fit-in/600x800/filters:format(webp):quality(85):no_upscale()/17140018_2_1_240731_105822-w3000-h2000",
               "width": 600,
               "height": 400
             }
@@ -314,20 +511,20 @@
           "mediaType": "image"
         },
         {
-          "thumbnail": "https://rimh2.domainstatic.com.au/j2KoC99OdUt1IgB21GMeU2Zroas=/fit-in/144x106/filters:format(jpeg):quality(80):no_upscale()/17140018_3_1_240731_105822-w3000-h2000",
+          "thumbnail": "https://rimh2.domainstatic.com.au/5ifkZ5c4zNQrYeCcbna1QPpDNgw=/fit-in/144x106/filters:format(webp):quality(85):no_upscale()/17140018_3_1_240731_105822-w3000-h2000",
           "images": {
             "original": {
-              "url": "https://rimh2.domainstatic.com.au/mZSSiu2SmanQKvK3MzXFHzvGh3s=/fit-in/1920x1080/filters:format(jpeg):quality(80):no_upscale()/17140018_3_1_240731_105822-w3000-h2000",
+              "url": "https://rimh2.domainstatic.com.au/VXMmOY-RoQYQ-Kt_Oerz4S3docs=/fit-in/1920x1080/filters:format(webp):quality(85):no_upscale()/17140018_3_1_240731_105822-w3000-h2000",
               "width": 1620,
               "height": 1080
             },
             "tablet": {
-              "url": "https://rimh2.domainstatic.com.au/tCBYJ4tc267wEnQ3obh82aQyV_A=/fit-in/1020x1020/filters:format(jpeg):quality(80):no_upscale()/17140018_3_1_240731_105822-w3000-h2000",
+              "url": "https://rimh2.domainstatic.com.au/KVnmM8F5Qbcj7Er8v_3apDDYzMg=/fit-in/1020x1020/filters:format(webp):quality(85):no_upscale()/17140018_3_1_240731_105822-w3000-h2000",
               "width": 1020,
               "height": 680
             },
             "mobile": {
-              "url": "https://rimh2.domainstatic.com.au/wAfrlYtVb_A4JIb0sBV2gybP3xE=/fit-in/600x800/filters:format(jpeg):quality(80):no_upscale()/17140018_3_1_240731_105822-w3000-h2000",
+              "url": "https://rimh2.domainstatic.com.au/TH_baKfTmHjYXaJbwzBO2YIlz3o=/fit-in/600x800/filters:format(webp):quality(85):no_upscale()/17140018_3_1_240731_105822-w3000-h2000",
               "width": 600,
               "height": 400
             }
@@ -336,20 +533,20 @@
           "mediaType": "image"
         },
         {
-          "thumbnail": "https://rimh2.domainstatic.com.au/FJW3thvQU5bFSBBjUEmJQl5lg88=/fit-in/144x106/filters:format(jpeg):quality(80):no_upscale()/17140018_4_1_240731_105822-w3000-h2000",
+          "thumbnail": "https://rimh2.domainstatic.com.au/mA2IrK2UnT5TXee5YEThN03XgLU=/fit-in/144x106/filters:format(webp):quality(85):no_upscale()/17140018_4_1_240731_105822-w3000-h2000",
           "images": {
             "original": {
-              "url": "https://rimh2.domainstatic.com.au/bsJdWVuq2YhkjqX7dnLvnxwCK7U=/fit-in/1920x1080/filters:format(jpeg):quality(80):no_upscale()/17140018_4_1_240731_105822-w3000-h2000",
+              "url": "https://rimh2.domainstatic.com.au/f03CJDhx2aRRxzs8WGK8BqZPoX0=/fit-in/1920x1080/filters:format(webp):quality(85):no_upscale()/17140018_4_1_240731_105822-w3000-h2000",
               "width": 1620,
               "height": 1080
             },
             "tablet": {
-              "url": "https://rimh2.domainstatic.com.au/mvXjoT5LSccQCh9eFqsX4sxK0j4=/fit-in/1020x1020/filters:format(jpeg):quality(80):no_upscale()/17140018_4_1_240731_105822-w3000-h2000",
+              "url": "https://rimh2.domainstatic.com.au/zs2zJmba6yjWmG9rWNs05S8g59I=/fit-in/1020x1020/filters:format(webp):quality(85):no_upscale()/17140018_4_1_240731_105822-w3000-h2000",
               "width": 1020,
               "height": 680
             },
             "mobile": {
-              "url": "https://rimh2.domainstatic.com.au/b8TxubNnyGYl0_-98kMOU5baX7c=/fit-in/600x800/filters:format(jpeg):quality(80):no_upscale()/17140018_4_1_240731_105822-w3000-h2000",
+              "url": "https://rimh2.domainstatic.com.au/1MhvOiq_E9YkNAc3JazKtPIXgPw=/fit-in/600x800/filters:format(webp):quality(85):no_upscale()/17140018_4_1_240731_105822-w3000-h2000",
               "width": 600,
               "height": 400
             }
@@ -358,20 +555,20 @@
           "mediaType": "image"
         },
         {
-          "thumbnail": "https://rimh2.domainstatic.com.au/N1krM7TQngWvq3Rz2jQQvIyH9Po=/fit-in/144x106/filters:format(jpeg):quality(80):no_upscale()/17140018_5_1_240731_105822-w3000-h2000",
+          "thumbnail": "https://rimh2.domainstatic.com.au/2gb9KcYRitR4WX96b1x8cPFF7Vk=/fit-in/144x106/filters:format(webp):quality(85):no_upscale()/17140018_5_1_240731_105822-w3000-h2000",
           "images": {
             "original": {
-              "url": "https://rimh2.domainstatic.com.au/8qjs6Kxj8Sy_A8ix-OLEeIwya1Y=/fit-in/1920x1080/filters:format(jpeg):quality(80):no_upscale()/17140018_5_1_240731_105822-w3000-h2000",
+              "url": "https://rimh2.domainstatic.com.au/F31tjA3yb8s4eZfpFyCn0SQesNk=/fit-in/1920x1080/filters:format(webp):quality(85):no_upscale()/17140018_5_1_240731_105822-w3000-h2000",
               "width": 1620,
               "height": 1080
             },
             "tablet": {
-              "url": "https://rimh2.domainstatic.com.au/CDQHpWPCJji5dxZg-YB71aGRLG4=/fit-in/1020x1020/filters:format(jpeg):quality(80):no_upscale()/17140018_5_1_240731_105822-w3000-h2000",
+              "url": "https://rimh2.domainstatic.com.au/i_8FPC3K79703Tb9agvna06yUEg=/fit-in/1020x1020/filters:format(webp):quality(85):no_upscale()/17140018_5_1_240731_105822-w3000-h2000",
               "width": 1020,
               "height": 680
             },
             "mobile": {
-              "url": "https://rimh2.domainstatic.com.au/rO6viebriF4QmZF5KunG6b0kfFE=/fit-in/600x800/filters:format(jpeg):quality(80):no_upscale()/17140018_5_1_240731_105822-w3000-h2000",
+              "url": "https://rimh2.domainstatic.com.au/hIKRKXj8dWjjGIZc7gH9f2QKoew=/fit-in/600x800/filters:format(webp):quality(85):no_upscale()/17140018_5_1_240731_105822-w3000-h2000",
               "width": 600,
               "height": 400
             }
@@ -380,20 +577,20 @@
           "mediaType": "image"
         },
         {
-          "thumbnail": "https://rimh2.domainstatic.com.au/jhLUtnkjbQHj9POX4IfJvxFdoHA=/fit-in/144x106/filters:format(jpeg):quality(80):no_upscale()/17140018_6_1_240731_105822-w3000-h2000",
+          "thumbnail": "https://rimh2.domainstatic.com.au/4RnNQGeihtADhhaad61ZaLtzBtM=/fit-in/144x106/filters:format(webp):quality(85):no_upscale()/17140018_6_1_240731_105822-w3000-h2000",
           "images": {
             "original": {
-              "url": "https://rimh2.domainstatic.com.au/rgZySL3U-u7kmK5V0zXa9U9-i8k=/fit-in/1920x1080/filters:format(jpeg):quality(80):no_upscale()/17140018_6_1_240731_105822-w3000-h2000",
+              "url": "https://rimh2.domainstatic.com.au/la2MVxwz-iuvOq9tumPdpFwSK3I=/fit-in/1920x1080/filters:format(webp):quality(85):no_upscale()/17140018_6_1_240731_105822-w3000-h2000",
               "width": 1620,
               "height": 1080
             },
             "tablet": {
-              "url": "https://rimh2.domainstatic.com.au/jkCEgpXAx898Qux7viOwVlSK4mQ=/fit-in/1020x1020/filters:format(jpeg):quality(80):no_upscale()/17140018_6_1_240731_105822-w3000-h2000",
+              "url": "https://rimh2.domainstatic.com.au/SW12CdaVVZpOSFZy-753tTWRnGo=/fit-in/1020x1020/filters:format(webp):quality(85):no_upscale()/17140018_6_1_240731_105822-w3000-h2000",
               "width": 1020,
               "height": 680
             },
             "mobile": {
-              "url": "https://rimh2.domainstatic.com.au/6RqxTn_Jz2ZhDBR6YUsqS3z6Cc4=/fit-in/600x800/filters:format(jpeg):quality(80):no_upscale()/17140018_6_1_240731_105822-w3000-h2000",
+              "url": "https://rimh2.domainstatic.com.au/L-phYbTGfHpi5CtKxX9yaA0PJj0=/fit-in/600x800/filters:format(webp):quality(85):no_upscale()/17140018_6_1_240731_105822-w3000-h2000",
               "width": 600,
               "height": 400
             }
@@ -402,20 +599,20 @@
           "mediaType": "image"
         },
         {
-          "thumbnail": "https://rimh2.domainstatic.com.au/9UW6O8ywEZIcGv59qaCEvHHIZLQ=/fit-in/144x106/filters:format(jpeg):quality(80):no_upscale()/17140018_7_1_240731_105822-w3000-h2000",
+          "thumbnail": "https://rimh2.domainstatic.com.au/yTMokYp6m3G_2XlXKHktWLrBDDk=/fit-in/144x106/filters:format(webp):quality(85):no_upscale()/17140018_7_1_240731_105822-w3000-h2000",
           "images": {
             "original": {
-              "url": "https://rimh2.domainstatic.com.au/Nm_f1yl31M6-Ne_U9zmRei_Kl0U=/fit-in/1920x1080/filters:format(jpeg):quality(80):no_upscale()/17140018_7_1_240731_105822-w3000-h2000",
+              "url": "https://rimh2.domainstatic.com.au/IwFQ7ReK_gcaSzsqyh7qc9WUbEo=/fit-in/1920x1080/filters:format(webp):quality(85):no_upscale()/17140018_7_1_240731_105822-w3000-h2000",
               "width": 1620,
               "height": 1080
             },
             "tablet": {
-              "url": "https://rimh2.domainstatic.com.au/qbMKfowjllAK6NmykyJCUVfVxj0=/fit-in/1020x1020/filters:format(jpeg):quality(80):no_upscale()/17140018_7_1_240731_105822-w3000-h2000",
+              "url": "https://rimh2.domainstatic.com.au/U3wb2b9wfTjw9n6dTxlxdDSa1ww=/fit-in/1020x1020/filters:format(webp):quality(85):no_upscale()/17140018_7_1_240731_105822-w3000-h2000",
               "width": 1020,
               "height": 680
             },
             "mobile": {
-              "url": "https://rimh2.domainstatic.com.au/77xxSN2fWMmQX2MQgAM_Ihj52gA=/fit-in/600x800/filters:format(jpeg):quality(80):no_upscale()/17140018_7_1_240731_105822-w3000-h2000",
+              "url": "https://rimh2.domainstatic.com.au/JMpMeL8DAlrn_M6XVPPLdtD4UXE=/fit-in/600x800/filters:format(webp):quality(85):no_upscale()/17140018_7_1_240731_105822-w3000-h2000",
               "width": 600,
               "height": 400
             }
@@ -424,20 +621,20 @@
           "mediaType": "image"
         },
         {
-          "thumbnail": "https://rimh2.domainstatic.com.au/hbcAFDXsqS1uRDPJhd8UyZxCmx8=/fit-in/144x106/filters:format(jpeg):quality(80):no_upscale()/17140018_8_1_240731_105822-w3000-h2000",
+          "thumbnail": "https://rimh2.domainstatic.com.au/0ypqsA2onXqDYMH2d2_ZdFp-SaM=/fit-in/144x106/filters:format(webp):quality(85):no_upscale()/17140018_8_1_240731_105822-w3000-h2000",
           "images": {
             "original": {
-              "url": "https://rimh2.domainstatic.com.au/C-DiuNCuGFQgPXOOniCknkI6w1E=/fit-in/1920x1080/filters:format(jpeg):quality(80):no_upscale()/17140018_8_1_240731_105822-w3000-h2000",
+              "url": "https://rimh2.domainstatic.com.au/xqKwtmWDWPSYTB11y8jYXZKqh_8=/fit-in/1920x1080/filters:format(webp):quality(85):no_upscale()/17140018_8_1_240731_105822-w3000-h2000",
               "width": 1620,
               "height": 1080
             },
             "tablet": {
-              "url": "https://rimh2.domainstatic.com.au/pF5gNkLBQrvUPN6yBolR1MdHVLg=/fit-in/1020x1020/filters:format(jpeg):quality(80):no_upscale()/17140018_8_1_240731_105822-w3000-h2000",
+              "url": "https://rimh2.domainstatic.com.au/JVm5TLblKdVrPVkN4o9-ghD9mWI=/fit-in/1020x1020/filters:format(webp):quality(85):no_upscale()/17140018_8_1_240731_105822-w3000-h2000",
               "width": 1020,
               "height": 680
             },
             "mobile": {
-              "url": "https://rimh2.domainstatic.com.au/FJwAFY3PSozhfzNixjniwN9FDus=/fit-in/600x800/filters:format(jpeg):quality(80):no_upscale()/17140018_8_1_240731_105822-w3000-h2000",
+              "url": "https://rimh2.domainstatic.com.au/g_17nDwlGJ4DYntLVlqXiIBJ95M=/fit-in/600x800/filters:format(webp):quality(85):no_upscale()/17140018_8_1_240731_105822-w3000-h2000",
               "width": 600,
               "height": 400
             }
@@ -446,20 +643,20 @@
           "mediaType": "image"
         },
         {
-          "thumbnail": "https://rimh2.domainstatic.com.au/9vJnkReW4tLoeUayevc6-bYbpNQ=/fit-in/144x106/filters:format(jpeg):quality(80):no_upscale()/17140018_9_1_240731_105822-w3000-h2000",
+          "thumbnail": "https://rimh2.domainstatic.com.au/8Q6A-E5iwdNTxkIVQf9SfU7H1h8=/fit-in/144x106/filters:format(webp):quality(85):no_upscale()/17140018_9_1_240731_105822-w3000-h2000",
           "images": {
             "original": {
-              "url": "https://rimh2.domainstatic.com.au/Iw1yPxbDDngqcX_HA4V4JT8rkZU=/fit-in/1920x1080/filters:format(jpeg):quality(80):no_upscale()/17140018_9_1_240731_105822-w3000-h2000",
+              "url": "https://rimh2.domainstatic.com.au/TWUdA8ngqF9hX8JXHItGS0GQySk=/fit-in/1920x1080/filters:format(webp):quality(85):no_upscale()/17140018_9_1_240731_105822-w3000-h2000",
               "width": 1620,
               "height": 1080
             },
             "tablet": {
-              "url": "https://rimh2.domainstatic.com.au/Jdy7wbsqHfVaIDb7YsYdF4j4-TY=/fit-in/1020x1020/filters:format(jpeg):quality(80):no_upscale()/17140018_9_1_240731_105822-w3000-h2000",
+              "url": "https://rimh2.domainstatic.com.au/qJdl7D3PBvYMWKA4QQS7NvMz3zI=/fit-in/1020x1020/filters:format(webp):quality(85):no_upscale()/17140018_9_1_240731_105822-w3000-h2000",
               "width": 1020,
               "height": 680
             },
             "mobile": {
-              "url": "https://rimh2.domainstatic.com.au/Et-fP8hjiIhmd4Voh_c9skmeoxs=/fit-in/600x800/filters:format(jpeg):quality(80):no_upscale()/17140018_9_1_240731_105822-w3000-h2000",
+              "url": "https://rimh2.domainstatic.com.au/sMhHW-kmpfDqF6XbdzSQNCUaJio=/fit-in/600x800/filters:format(webp):quality(85):no_upscale()/17140018_9_1_240731_105822-w3000-h2000",
               "width": 600,
               "height": 400
             }
@@ -468,22 +665,44 @@
           "mediaType": "image"
         },
         {
-          "thumbnail": "https://rimh2.domainstatic.com.au/xWgFmB2lAGPTlCOTrMz39cuqDtg=/fit-in/144x106/filters:format(jpeg):quality(80):no_upscale()/17140018_10_1_240731_105822-w3000-h2000",
+          "thumbnail": "https://rimh2.domainstatic.com.au/OFXljTPpUkVSqbRNU8Mo1U2CuWo=/fit-in/144x106/filters:format(webp):quality(85):no_upscale()/17140018_10_1_240731_105822-w3000-h2000",
           "images": {
             "original": {
-              "url": "https://rimh2.domainstatic.com.au/bW3kB7ET5JQwppwjRfZnCdfQogM=/fit-in/1920x1080/filters:format(jpeg):quality(80):no_upscale()/17140018_10_1_240731_105822-w3000-h2000",
+              "url": "https://rimh2.domainstatic.com.au/NQJJ1rG_bvjcFrwp-V4xvdadEvM=/fit-in/1920x1080/filters:format(webp):quality(85):no_upscale()/17140018_10_1_240731_105822-w3000-h2000",
               "width": 1620,
               "height": 1080
             },
             "tablet": {
-              "url": "https://rimh2.domainstatic.com.au/Bj40ZLVa3K20IifjyTq2hIzJ2CQ=/fit-in/1020x1020/filters:format(jpeg):quality(80):no_upscale()/17140018_10_1_240731_105822-w3000-h2000",
+              "url": "https://rimh2.domainstatic.com.au/4kspwV0EEy_5_OHC0ZC5hlzfuU8=/fit-in/1020x1020/filters:format(webp):quality(85):no_upscale()/17140018_10_1_240731_105822-w3000-h2000",
               "width": 1020,
               "height": 680
             },
             "mobile": {
-              "url": "https://rimh2.domainstatic.com.au/PYbBVt8HnokGOOaJEL3kY55uh9Y=/fit-in/600x800/filters:format(jpeg):quality(80):no_upscale()/17140018_10_1_240731_105822-w3000-h2000",
+              "url": "https://rimh2.domainstatic.com.au/Mrg6QOUIPDl02wrW4DglLB118-s=/fit-in/600x800/filters:format(webp):quality(85):no_upscale()/17140018_10_1_240731_105822-w3000-h2000",
               "width": 600,
               "height": 400
+            }
+          },
+          "embedUrl": null,
+          "mediaType": "image"
+        },
+        {
+          "thumbnail": "https://rimh2.domainstatic.com.au/DzuxS1LpQhc5mS0Vne0WTyKGp54=/fit-in/144x106/filters:format(webp):quality(85):no_upscale()/16347516_7_1_230302_065245-w958-h960",
+          "images": {
+            "original": {
+              "url": "https://rimh2.domainstatic.com.au/6LcJqtrg6Yl6Yx5jlCq6SKtgZ88=/fit-in/1920x1080/filters:format(webp):quality(85):no_upscale()/16347516_7_1_230302_065245-w958-h960",
+              "width": 958,
+              "height": 960
+            },
+            "tablet": {
+              "url": "https://rimh2.domainstatic.com.au/FmongQ_BHbPYIbt_DUvsL1GKGvk=/fit-in/1020x1020/filters:format(webp):quality(85):no_upscale()/16347516_7_1_230302_065245-w958-h960",
+              "width": 958,
+              "height": 960
+            },
+            "mobile": {
+              "url": "https://rimh2.domainstatic.com.au/mulSEY7woHkT5ca0PRMUjdXWqgQ=/fit-in/600x800/filters:format(webp):quality(85):no_upscale()/16347516_7_1_230302_065245-w958-h960",
+              "width": 600,
+              "height": 601
             }
           },
           "embedUrl": null,
@@ -498,9 +717,9 @@
       "houses": 0,
       "isRural": false,
       "listingType": "rent",
-      "mode": "rent",
+      "mode": "leased",
       "parking": 0,
-      "promoType": "platinum",
+      "promoType": "branded",
       "propertyType": "Apartment / Unit / Flat",
       "showDefaultFeatures": true,
       "showDomainInsight": false,
@@ -512,20 +731,21 @@
         },
         {
           "key": "bond",
-          "value": 3259
+          "value": 3150
         }
       ],
-      "status": "new",
-      "title": "$750 per week"
+      "status": "leased",
+      "tag": "Listing leased by advertiser",
+      "title": "$725 per week"
     },
     "agents": [
       {
         "name": "Tom Koller",
-        "photo": "https://rimh2.domainstatic.com.au/s6rwebweH3dqMSpq6lYO7na9GUI=/filters:format(png):quality(80):no_upscale()/https://images.domain.com.au/img/3276/contact_1797401.jpeg?date=638942347965370000",
+        "photo": "https://rimh2.domainstatic.com.au/jFKxrSoax8xjbu0J8WIX1mG3TGo=/180x180/filters:format(webp):quality(85):no_upscale()/https://images.domain.com.au/img/3276/contact_1797401.jpeg?date=639024188933800000",
         "phone": "9520 9000",
         "mobile": "0487 888 100",
         "agentProfileUrl": "https://www.domain.com.au/real-estate-agent/tom-koller-1797401",
-        "email": "aW5zcGVjdC5wcmFocmFuQGJpZ2dpbnNjb3R0LmNvbS5hdQ=="
+        "email": null
       },
       {
         "name": "Ruari Clark",
@@ -533,77 +753,12 @@
         "phone": "0395209000",
         "mobile": "0475777800",
         "agentProfileUrl": "https://www.domain.com.au/real-estate-agent/ruari-clark-2008158",
-        "email": "aW5zcGVjdC5wcmFocmFuQGJpZ2dpbnNjb3R0LmNvbS5hdQ=="
+        "email": null
       }
     ],
     "features": [],
     "structuredFeatures": [],
-    "faqs": [
-      {
-        "question": "What is the weekly rent for 1518/474 Flinders Street, Melbourne?",
-        "answer": [
-          {
-            "text": "The weekly rent for 1518/474 Flinders Street, Melbourne is $750 per week."
-          }
-        ]
-      },
-      {
-        "question": "When is 1518/474 Flinders Street, Melbourne available to rent?",
-        "answer": [
-          {
-            "text": "1518/474 Flinders Street, Melbourne is available to rent from Thursday 23rd October, 2025."
-          }
-        ]
-      },
-      {
-        "question": "How much is the rental bond for 1518/474 Flinders Street, Melbourne?",
-        "answer": [
-          {
-            "text": "The bond for 1518/474 Flinders Street, Melbourne is $3259."
-          }
-        ]
-      },
-      {
-        "question": "How many bedrooms does 1518/474 Flinders Street, Melbourne have?",
-        "answer": [
-          {
-            "text": "1518/474 Flinders Street, Melbourne is a 2 bedroom apartment."
-          }
-        ]
-      },
-      {
-        "question": "What are the key property features of 1518/474 Flinders Street, Melbourne?",
-        "answer": [
-          {
-            "text": "To enquire about specific property features for 1518/474 Flinders Street, Melbourne, "
-          },
-          {
-            "text": "contact the agent.",
-            "scrollTo": "enquiry-form"
-          }
-        ]
-      },
-      {
-        "question": "What is the size of the property at 1518/474 Flinders Street, Melbourne?",
-        "answer": [
-          {
-            "text": "The property size for 1518/474 Flinders Street, Melbourne has not been disclosed. To find detailed information on property size, "
-          },
-          {
-            "text": "contact the agent.",
-            "scrollTo": "enquiry-form"
-          }
-        ]
-      },
-      {
-        "question": "How many car spaces does 1518/474 Flinders Street, Melbourne have?",
-        "answer": [
-          {
-            "text": "There were no car spaces found on the listing for 1518/474 Flinders Street, Melbourne."
-          }
-        ]
-      }
-    ],
+    "faqs": null,
     "url": "https://www.domain.com.au/1518-474-flinders-street-melbourne-vic-3000-17773317"
   }
 ]

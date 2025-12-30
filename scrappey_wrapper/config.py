@@ -57,19 +57,32 @@ class ScrapeConfig:
             payload["proxyCountry"] = self._map_country_code(self.country)
         
         if self.headers:
-            payload["customHeaders"] = self.headers
+            # Lowercase all header keys for consistency
+            payload["customHeaders"] = {k.lower(): v for k, v in self.headers.items()}
         
         if self.cookies:
             cookie_str = "; ".join(f"{k}={v}" for k, v in self.cookies.items())
             if "customHeaders" not in payload:
                 payload["customHeaders"] = {}
-            payload["customHeaders"]["Cookie"] = cookie_str
+            payload["customHeaders"]["cookie"] = cookie_str
         
         if self.body:
             payload["postData"] = self.body
+            # Auto-set content-type for JSON body
+            if self.body.strip().startswith(('{', '[')):
+                if "customHeaders" not in payload:
+                    payload["customHeaders"] = {}
+                if "content-type" not in payload["customHeaders"]:
+                    payload["customHeaders"]["content-type"] = "application/json"
         
         if self.data:
             payload["postData"] = self.data
+            # Dict data is JSON, set content-type
+            if isinstance(self.data, dict):
+                if "customHeaders" not in payload:
+                    payload["customHeaders"] = {}
+                if "content-type" not in payload["customHeaders"]:
+                    payload["customHeaders"]["content-type"] = "application/json"
         
         browser_actions = []
         

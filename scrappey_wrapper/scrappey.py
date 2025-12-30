@@ -2,8 +2,10 @@
 ScrappeyClient - Main client class for interacting with Scrappey API.
 """
 import asyncio
+import json
 import os
 import random
+import re
 from typing import Dict, Any, Optional, List, AsyncIterator, Union
 
 import httpx
@@ -49,11 +51,14 @@ class ScrappeyClient:
         max_retries: Number of retries for transient errors (default: 3).
         retry_delay: Initial retry delay in seconds (default: 1.0).
         retry_max_delay: Maximum retry delay in seconds (default: 30.0).
+        debug: Enable debug logging (default: False, or set SCRAPPEY_DEBUG=1).
     
     Example:
         >>> client = ScrappeyClient(key="your-api-key", max_concurrency=50)
         >>> # Or use environment variable
         >>> client = ScrappeyClient()  # Uses SCRAPPEY_KEY env var, 100 concurrent
+        >>> # Enable debug logging
+        >>> client = ScrappeyClient(debug=True)
     """
     
     BASE_URL = "https://publisher.scrappey.com/api/v1"
@@ -67,12 +72,18 @@ class ScrappeyClient:
         max_retries: int = 3,
         retry_delay: float = 1.0,
         retry_max_delay: float = 30.0,
+        debug: Optional[bool] = None,
     ):
         self.api_key = key or os.environ.get("SCRAPPEY_KEY")
         if not self.api_key:
             raise ScrappeyAuthError(
                 "API key is required. Set SCRAPPEY_KEY environment variable or pass key parameter."
             )
+        
+        # Debug mode from param or env var
+        if debug is None:
+            debug = os.environ.get("SCRAPPEY_DEBUG", "").lower() in ("1", "true", "yes")
+        self.debug = debug
         
         # Validate and set concurrency (1-100)
         if max_concurrency < 1:
@@ -87,6 +98,20 @@ class ScrappeyClient:
         self.retry_delay = retry_delay
         self.retry_max_delay = retry_max_delay
         self._session_cache: Dict[str, str] = {}
+    
+    def _log_debug(self, message: str):
+        """Print debug message if debug mode is enabled."""
+        if self.debug:
+            print(f"[Scrappey DEBUG] {message}")
+    
+    def _extract_title(self, html: str) -> str:
+        """Extract page title from HTML."""
+        if not html:
+            return "(empty response)"
+        match = re.search(r'<title[^>]*>([^<]+)</title>', html, re.IGNORECASE)
+        if match:
+            return match.group(1).strip()[:80]
+        return "(no title)"
     
     def _is_retryable_error(self, error_message: str) -> bool:
         """Check if an error message indicates a retryable error."""
@@ -112,6 +137,14 @@ class ScrappeyClient:
     ) -> Dict[str, Any]:
         request_timeout = timeout or self.timeout
         
+        # Log request payload in debug mode
+        if self.debug:
+            url = payload.get("url", "unknown")
+            # Create a sanitized payload for logging (hide sensitive data)
+            log_payload = {k: v for k, v in payload.items() if k != "key"}
+            self._log_debug(f"→ Request to: {url}")
+            self._log_debug(f"  Payload: {json.dumps(log_payload, indent=2)}")
+        
         async with httpx.AsyncClient(timeout=request_timeout) as client:
             try:
                 response = await client.post(
@@ -121,6 +154,17 @@ class ScrappeyClient:
                 )
                 
                 data = response.json()
+                
+                # Log response in debug mode
+                if self.debug:
+                    solution = data.get("solution", {})
+                    html = solution.get("response", solution.get("html", ""))
+                    title = self._extract_title(html)
+                    status = solution.get("statusCode", "?")
+                    current_url = solution.get("currentUrl", payload.get("url", "?"))
+                    elapsed = data.get("timeElapsed", "?")
+                    self._log_debug(f"← Response: {status} | Title: {title}")
+                    self._log_debug(f"  URL: {current_url} | Time: {elapsed}ms")
                 
                 if "error" in data:
                     error_code = data.get("code", "UNKNOWN")

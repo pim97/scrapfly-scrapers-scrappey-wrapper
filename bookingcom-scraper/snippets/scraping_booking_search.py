@@ -66,7 +66,7 @@ async def search_location_suggestions(query: str) -> Dict:
             headers={
                 "Origin": "https://www.booking.com",
                 "Referer": "https://www.booking.com/",
-                "Content-Type": "text/plain;charset=UTF-8",
+                "Content-Type": "application/json",
             },
             body=f'{{"query":"{query}","pageview_id":"","aid":800210,"language":"en-us","size":5}}',
         )

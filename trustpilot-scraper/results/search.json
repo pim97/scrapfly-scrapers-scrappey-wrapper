@@ -5,7 +5,7 @@
     "identifyingName": "www.tadibrothers.com",
     "displayName": "TadiBrothers",
     "logoUrl": "//s3-eu-west-1.amazonaws.com/tpd/screenshotlogo-domain/4bdc7d56000064000505cb54/198x149.png",
-    "numberOfReviews": 3369,
+    "numberOfReviews": 3374,
     "trustScore": 5,
     "location": {
       "address": "6924 Canby Ave, #107",
@@ -21,11 +21,6 @@
     },
     "categories": [
       {
-        "categoryId": "truck_parts_supplier",
-        "displayName": "Truck Parts Supplier",
-        "isPredicted": false
-      },
-      {
         "categoryId": "electronics_store",
         "displayName": "Electronics Store",
         "isPredicted": false
@@ -36,8 +31,13 @@
         "isPredicted": false
       },
       {
-        "categoryId": "horsebox_specialist",
-        "displayName": "Horse Transport Supplier",
+        "categoryId": "safety_equipment_supplier",
+        "displayName": "Safety Equipment Supplier",
+        "isPredicted": false
+      },
+      {
+        "categoryId": "truck_parts_supplier",
+        "displayName": "Truck Parts Supplier",
         "isPredicted": false
       },
       {
@@ -46,8 +46,8 @@
         "isPredicted": false
       },
       {
-        "categoryId": "safety_equipment_supplier",
-        "displayName": "Safety Equipment Supplier",
+        "categoryId": "horsebox_specialist",
+        "displayName": "Horse Transport Supplier",
         "isPredicted": false
       }
     ]
@@ -58,7 +58,7 @@
     "identifyingName": "bloomaudio.com",
     "displayName": "Bloom Audio",
     "logoUrl": "//s3-eu-west-1.amazonaws.com/tpd/screenshotlogo-domain/5cf53562e0d5ad0001e78aed/198x149.png",
-    "numberOfReviews": 2906,
+    "numberOfReviews": 2908,
     "trustScore": 5,
     "location": {
       "address": "405 Bloomfield Dr, Suite 5",
@@ -74,13 +74,13 @@
     },
     "categories": [
       {
-        "categoryId": "hi-fi_shop",
-        "displayName": "Hi-fi shop",
+        "categoryId": "electronics_store",
+        "displayName": "Electronics Store",
         "isPredicted": false
       },
       {
-        "categoryId": "electronics_store",
-        "displayName": "Electronics Store",
+        "categoryId": "hi-fi_shop",
+        "displayName": "Hi-fi shop",
         "isPredicted": false
       }
     ]
@@ -228,7 +228,7 @@
     "identifyingName": "getcashforlaptop.com",
     "displayName": "Getcashforlaptop",
     "logoUrl": "//s3-eu-west-1.amazonaws.com/tpd/screenshotlogo-domain/50635a3400006400051c1ae3/198x149.png",
-    "numberOfReviews": 844,
+    "numberOfReviews": 845,
     "trustScore": 5,
     "location": {
       "address": "555 Double Eagle Ct #1200",
@@ -261,7 +261,7 @@
     "identifyingName": "icdsoft.com",
     "displayName": "ICDSoft",
     "logoUrl": "//s3-eu-west-1.amazonaws.com/tpd/screenshotlogo-domain/598a68a00000ff0005a8720d/198x149.png",
-    "numberOfReviews": 678,
+    "numberOfReviews": 679,
     "trustScore": 5,
     "location": {
       "address": null,
@@ -277,18 +277,13 @@
     },
     "categories": [
       {
-        "categoryId": "business_to_business_service",
-        "displayName": "Business to Business Service",
-        "isPredicted": false
-      },
-      {
         "categoryId": "web_hosting_service",
         "displayName": "Web Hosting Company",
         "isPredicted": false
       },
       {
-        "categoryId": "email_service_provider",
-        "displayName": "Email Service Provider",
+        "categoryId": "business_to_business_service",
+        "displayName": "Business to Business Service",
         "isPredicted": false
       },
       {
@@ -299,6 +294,11 @@
       {
         "categoryId": "e-commerce_solution_provider",
         "displayName": "e-Commerce Solution Provider",
+        "isPredicted": false
+      },
+      {
+        "categoryId": "email_service_provider",
+        "displayName": "Email Service Provider",
         "isPredicted": false
       }
     ]
@@ -337,7 +337,7 @@
     "identifyingName": "unlockerplus.com",
     "displayName": "Unlockerplus",
     "logoUrl": "//s3-eu-west-1.amazonaws.com/tpd/screenshotlogo-domain/5d9f5fb495809300017a2c7a/198x149.png",
-    "numberOfReviews": 409,
+    "numberOfReviews": 410,
     "trustScore": 5,
     "location": {
       "address": null,
@@ -353,8 +353,8 @@
     },
     "categories": [
       {
-        "categoryId": "cell_phone_unlocking_service",
-        "displayName": "Cell Phone Unlocking Service",
+        "categoryId": "software_company",
+        "displayName": "Software Company",
         "isPredicted": false
       },
       {
@@ -363,8 +363,8 @@
         "isPredicted": false
       },
       {
-        "categoryId": "software_company",
-        "displayName": "Software Company",
+        "categoryId": "cell_phone_unlocking_service",
+        "displayName": "Cell Phone Unlocking Service",
         "isPredicted": false
       }
     ]
@@ -375,7 +375,7 @@
     "identifyingName": "www.bhphotovideo.com",
     "displayName": "B&H Photo-Video",
     "logoUrl": "//s3-eu-west-1.amazonaws.com/tpd/screenshotlogo-domain/46fac7c8000064000501afed/198x149.png",
-    "numberOfReviews": 327508,
+    "numberOfReviews": 327534,
     "trustScore": 4.9,
     "location": {
       "address": "420 9th Ave",
@@ -408,7 +408,7 @@
     "identifyingName": "www.siteground.com",
     "displayName": "SiteGround",
     "logoUrl": "//s3-eu-west-1.amazonaws.com/tpd/screenshotlogo-domain/4bdc7fea000064000505ccdb/198x149.png",
-    "numberOfReviews": 25894,
+    "numberOfReviews": 25912,
     "trustScore": 4.9,
     "location": {
       "address": "700 N. Fairfax St, Suite 614",
@@ -424,13 +424,23 @@
     },
     "categories": [
       {
-        "categoryId": "website_designer",
-        "displayName": "Website Designer",
+        "categoryId": "web_hosting_service",
+        "displayName": "Web Hosting Company",
+        "isPredicted": false
+      },
+      {
+        "categoryId": "dns_provider",
+        "displayName": "DNS Provider",
         "isPredicted": false
       },
       {
         "categoryId": "internet_marketing_service",
         "displayName": "Internet Marketing Service",
+        "isPredicted": false
+      },
+      {
+        "categoryId": "website_designer",
+        "displayName": "Website Designer",
         "isPredicted": false
       },
       {
@@ -441,16 +451,6 @@
       {
         "categoryId": "business_to_business_service",
         "displayName": "Business to Business Service",
-        "isPredicted": false
-      },
-      {
-        "categoryId": "dns_provider",
-        "displayName": "DNS Provider",
-        "isPredicted": false
-      },
-      {
-        "categoryId": "web_hosting_service",
-        "displayName": "Web Hosting Company",
         "isPredicted": false
       }
     ]
@@ -477,13 +477,23 @@
     },
     "categories": [
       {
-        "categoryId": "computer_accessories_store",
-        "displayName": "Computer Accessories Store",
+        "categoryId": "hobby_store",
+        "displayName": "Hobby Store",
         "isPredicted": false
       },
       {
-        "categoryId": "hobby_store",
-        "displayName": "Hobby Store",
+        "categoryId": "business_to_business_service",
+        "displayName": "Business to Business Service",
+        "isPredicted": false
+      },
+      {
+        "categoryId": "gift_shop",
+        "displayName": "Gift Shop",
+        "isPredicted": false
+      },
+      {
+        "categoryId": "computer_accessories_store",
+        "displayName": "Computer Accessories Store",
         "isPredicted": false
       },
       {
@@ -495,16 +505,6 @@
         "categoryId": "promotional_items_store",
         "displayName": "Promotional Item Store",
         "isPredicted": false
-      },
-      {
-        "categoryId": "gift_shop",
-        "displayName": "Gift Shop",
-        "isPredicted": false
-      },
-      {
-        "categoryId": "business_to_business_service",
-        "displayName": "Business to Business Service",
-        "isPredicted": false
       }
     ]
   },
@@ -514,7 +514,7 @@
     "identifyingName": "poecurrency.com",
     "displayName": "Poecurrency",
     "logoUrl": "//s3-eu-west-1.amazonaws.com/tpd/screenshotlogo-domain/5cf6261e3d0cda00014a4222/198x149.png",
-    "numberOfReviews": 15825,
+    "numberOfReviews": 15841,
     "trustScore": 4.9,
     "location": {
       "address": null,
@@ -530,6 +530,16 @@
     },
     "categories": [
       {
+        "categoryId": "game_store",
+        "displayName": "Game Store",
+        "isPredicted": false
+      },
+      {
+        "categoryId": "video_game_store",
+        "displayName": "Video Game Store",
+        "isPredicted": false
+      },
+      {
         "categoryId": "video_game_rental_service",
         "displayName": "Video Game Rental Service",
         "isPredicted": false
@@ -537,11 +547,6 @@
       {
         "categoryId": "internet_shop",
         "displayName": "Internet Shop",
-        "isPredicted": false
-      },
-      {
-        "categoryId": "video_game_store",
-        "displayName": "Video Game Store",
         "isPredicted": false
       },
       {
@@ -553,11 +558,6 @@
         "categoryId": "gaming_service_provider",
         "displayName": "Gaming service Provider",
         "isPredicted": false
-      },
-      {
-        "categoryId": "game_store",
-        "displayName": "Game Store",
-        "isPredicted": false
       }
     ]
   },
@@ -567,7 +567,7 @@
     "identifyingName": "squadlocker.com",
     "displayName": "SquadLocker",
     "logoUrl": "//s3-eu-west-1.amazonaws.com/tpd/screenshotlogo-domain/59550f8a0000ff0005a59c3f/198x149.png",
-    "numberOfReviews": 8107,
+    "numberOfReviews": 8110,
     "trustScore": 4.9,
     "location": {
       "address": "240 Bald Hill Road",
@@ -583,13 +583,8 @@
     },
     "categories": [
       {
-        "categoryId": "uniform_store",
-        "displayName": "Uniform Store",
-        "isPredicted": false
-      },
-      {
-        "categoryId": "software_company",
-        "displayName": "Software Company",
+        "categoryId": "custom_t_shirt_store",
+        "displayName": "Custom T-Shirt Store",
         "isPredicted": false
       },
       {
@@ -598,18 +593,23 @@
         "isPredicted": false
       },
       {
-        "categoryId": "printed_clothing_store",
-        "displayName": "Printed Clothing Store",
-        "isPredicted": false
-      },
-      {
-        "categoryId": "custom_t_shirt_store",
-        "displayName": "Custom T-Shirt Store",
-        "isPredicted": false
-      },
-      {
         "categoryId": "sportswear_store",
         "displayName": "Sportswear Store",
+        "isPredicted": false
+      },
+      {
+        "categoryId": "software_company",
+        "displayName": "Software Company",
+        "isPredicted": false
+      },
+      {
+        "categoryId": "uniform_store",
+        "displayName": "Uniform Store",
+        "isPredicted": false
+      },
+      {
+        "categoryId": "printed_clothing_store",
+        "displayName": "Printed Clothing Store",
         "isPredicted": false
       }
     ]
@@ -620,7 +620,7 @@
     "identifyingName": "www.aragon.ai",
     "displayName": "Aragon AI",
     "logoUrl": "//s3-eu-west-1.amazonaws.com/tpd/screenshotlogo-domain/65258b44c11985781f430cde/198x149.png",
-    "numberOfReviews": 5878,
+    "numberOfReviews": 5880,
     "trustScore": 4.9,
     "location": {
       "address": "1929 Market St",
@@ -636,18 +636,18 @@
     },
     "categories": [
       {
-        "categoryId": "business_to_business_service",
-        "displayName": "Business to Business Service",
-        "isPredicted": false
-      },
-      {
         "categoryId": "photographer",
         "displayName": "Photographer",
         "isPredicted": false
       },
       {
-        "categoryId": "photography_service",
-        "displayName": "Photography Service",
+        "categoryId": "photo_restoration_service",
+        "displayName": "Photo Restoration Service",
+        "isPredicted": false
+      },
+      {
+        "categoryId": "business_to_business_service",
+        "displayName": "Business to Business Service",
         "isPredicted": false
       },
       {
@@ -656,13 +656,13 @@
         "isPredicted": false
       },
       {
-        "categoryId": "photo_agency",
-        "displayName": "Photo Agency",
+        "categoryId": "photography_service",
+        "displayName": "Photography Service",
         "isPredicted": false
       },
       {
-        "categoryId": "photo_restoration_service",
-        "displayName": "Photo Restoration Service",
+        "categoryId": "photo_agency",
+        "displayName": "Photo Agency",
         "isPredicted": false
       }
     ]
@@ -673,7 +673,7 @@
     "identifyingName": "www.acitydiscount.com",
     "displayName": "ACityDiscount",
     "logoUrl": "//s3-eu-west-1.amazonaws.com/tpd/screenshotlogo-domain/50f6c1f3000064000520df74/198x149.png",
-    "numberOfReviews": 5052,
+    "numberOfReviews": 5054,
     "trustScore": 4.9,
     "location": {
       "address": "6286 Dawson Blvd. ",
@@ -694,6 +694,11 @@
         "isPredicted": false
       },
       {
+        "categoryId": "furniture_store",
+        "displayName": "Furniture Store",
+        "isPredicted": false
+      },
+      {
         "categoryId": "kitchen_supply_store",
         "displayName": "Kitchen Supply Store",
         "isPredicted": false
@@ -709,18 +714,13 @@
         "isPredicted": false
       },
       {
-        "categoryId": "grill_store",
-        "displayName": "Grill Store",
-        "isPredicted": false
-      },
-      {
-        "categoryId": "furniture_store",
-        "displayName": "Furniture Store",
-        "isPredicted": false
-      },
-      {
         "categoryId": "plumber",
         "displayName": "Plumber",
+        "isPredicted": false
+      },
+      {
+        "categoryId": "grill_store",
+        "displayName": "Grill Store",
         "isPredicted": false
       }
     ]
@@ -731,7 +731,7 @@
     "identifyingName": "namehero.com",
     "displayName": "NameHero®",
     "logoUrl": "//s3-eu-west-1.amazonaws.com/tpd/screenshotlogo-domain/586e76390000ff00059a440c/198x149.png",
-    "numberOfReviews": 4721,
+    "numberOfReviews": 4726,
     "trustScore": 4.9,
     "location": {
       "address": null,
@@ -747,18 +747,8 @@
     },
     "categories": [
       {
-        "categoryId": "email_service_provider",
-        "displayName": "Email Service Provider",
-        "isPredicted": false
-      },
-      {
-        "categoryId": "web_hosting_service",
-        "displayName": "Web Hosting Company",
-        "isPredicted": false
-      },
-      {
-        "categoryId": "gaming_service_provider",
-        "displayName": "Gaming service Provider",
+        "categoryId": "cloud_computing_service",
+        "displayName": "Cloud Computing Service",
         "isPredicted": false
       },
       {
@@ -767,13 +757,23 @@
         "isPredicted": false
       },
       {
-        "categoryId": "cloud_computing_service",
-        "displayName": "Cloud Computing Service",
+        "categoryId": "email_service_provider",
+        "displayName": "Email Service Provider",
+        "isPredicted": false
+      },
+      {
+        "categoryId": "gaming_service_provider",
+        "displayName": "Gaming service Provider",
         "isPredicted": false
       },
       {
         "categoryId": "e_commerce_service",
         "displayName": "e-Commerce Service",
+        "isPredicted": false
+      },
+      {
+        "categoryId": "web_hosting_service",
+        "displayName": "Web Hosting Company",
         "isPredicted": false
       }
     ]
@@ -784,7 +784,7 @@
     "identifyingName": "lawfully.com",
     "displayName": "Lawfully",
     "logoUrl": "//s3-eu-west-1.amazonaws.com/tpd/screenshotlogo-domain/61acbbe7296732d7cb6b924a/198x149.png",
-    "numberOfReviews": 4506,
+    "numberOfReviews": 4508,
     "trustScore": 4.9,
     "location": {
       "address": null,
@@ -800,6 +800,21 @@
     },
     "categories": [
       {
+        "categoryId": "software_company",
+        "displayName": "Software Company",
+        "isPredicted": false
+      },
+      {
+        "categoryId": "immigration_and_naturalization_service",
+        "displayName": "Immigration and Naturalization Service",
+        "isPredicted": false
+      },
+      {
+        "categoryId": "legal_services",
+        "displayName": "Legal Services",
+        "isPredicted": false
+      },
+      {
         "categoryId": "immigration_attorney",
         "displayName": "Immigration Attorney",
         "isPredicted": false
@@ -810,23 +825,8 @@
         "isPredicted": false
       },
       {
-        "categoryId": "legal_services",
-        "displayName": "Legal Services",
-        "isPredicted": false
-      },
-      {
         "categoryId": "lawyer",
         "displayName": "Lawyer",
-        "isPredicted": false
-      },
-      {
-        "categoryId": "immigration_and_naturalization_service",
-        "displayName": "Immigration and Naturalization Service",
-        "isPredicted": false
-      },
-      {
-        "categoryId": "software_company",
-        "displayName": "Software Company",
         "isPredicted": false
       }
     ]
@@ -1017,6 +1017,39 @@
     ]
   },
   {
+    "businessUnitId": "64a717af4aa55f1fe15ec972",
+    "stars": 5,
+    "identifyingName": "getupgraded.com",
+    "displayName": "Upgraded",
+    "logoUrl": "//s3-eu-west-1.amazonaws.com/tpd/screenshotlogo-domain/64a717af4aa55f1fe15ec972/198x149.png",
+    "numberOfReviews": 405,
+    "trustScore": 4.9,
+    "location": {
+      "address": null,
+      "city": null,
+      "zipCode": null,
+      "country": "United States"
+    },
+    "isRecommendedInCategories": true,
+    "contact": {
+      "website": "https://getupgraded.com",
+      "email": null,
+      "phone": null
+    },
+    "categories": [
+      {
+        "categoryId": "computer_store",
+        "displayName": "Computer Store",
+        "isPredicted": false
+      },
+      {
+        "categoryId": "electronics_store",
+        "displayName": "Electronics Store",
+        "isPredicted": false
+      }
+    ]
+  },
+  {
     "businessUnitId": "618d5417edda096589f48c95",
     "stars": 5,
     "identifyingName": "sellthatcell.com",
@@ -1098,7 +1131,7 @@
     "identifyingName": "industryrockstar.com",
     "displayName": "Industry Rockstar",
     "logoUrl": "//s3-eu-west-1.amazonaws.com/tpd/screenshotlogo-domain/6824ede0a7f05429a838ee07/198x149.png",
-    "numberOfReviews": 360,
+    "numberOfReviews": 361,
     "trustScore": 4.9,
     "location": {
       "address": "3372 E Gemini Ct",
@@ -1119,13 +1152,18 @@
         "isPredicted": false
       },
       {
-        "categoryId": "business_and_it_consulting_agency",
-        "displayName": "Business and IT Consulting Agency",
+        "categoryId": "coaching_center",
+        "displayName": "Coaching Center",
         "isPredicted": false
       },
       {
-        "categoryId": "business_to_business_service",
-        "displayName": "Business to Business Service",
+        "categoryId": "business_development_service",
+        "displayName": "Business Development Service",
+        "isPredicted": false
+      },
+      {
+        "categoryId": "business_and_it_consulting_agency",
+        "displayName": "Business and IT Consulting Agency",
         "isPredicted": false
       },
       {
@@ -1134,13 +1172,8 @@
         "isPredicted": false
       },
       {
-        "categoryId": "coaching_center",
-        "displayName": "Coaching Center",
-        "isPredicted": false
-      },
-      {
-        "categoryId": "business_development_service",
-        "displayName": "Business Development Service",
+        "categoryId": "business_to_business_service",
+        "displayName": "Business to Business Service",
         "isPredicted": false
       }
     ]
@@ -1194,7 +1227,7 @@
     "identifyingName": "shopwithhustle.com",
     "displayName": "Shopwithhustle",
     "logoUrl": "//s3-eu-west-1.amazonaws.com/tpd/screenshotlogo-domain/646d1859eb75df83812c162a/198x149.png",
-    "numberOfReviews": 240,
+    "numberOfReviews": 239,
     "trustScore": 4.9,
     "location": {
       "address": null,
@@ -1210,13 +1243,8 @@
     },
     "categories": [
       {
-        "categoryId": "electronics_company",
-        "displayName": "Electronics Company",
-        "isPredicted": false
-      },
-      {
-        "categoryId": "film_production_company",
-        "displayName": "Film Production Company",
+        "categoryId": "cosmetics_and_parfumes_supplier",
+        "displayName": "Cosmetics and Perfumes Supplier",
         "isPredicted": false
       },
       {
@@ -1225,8 +1253,13 @@
         "isPredicted": false
       },
       {
-        "categoryId": "cosmetics_and_parfumes_supplier",
-        "displayName": "Cosmetics and Perfumes Supplier",
+        "categoryId": "clothing_store",
+        "displayName": "Clothing Store",
+        "isPredicted": false
+      },
+      {
+        "categoryId": "electronics_company",
+        "displayName": "Electronics Company",
         "isPredicted": false
       },
       {
@@ -1235,8 +1268,8 @@
         "isPredicted": false
       },
       {
-        "categoryId": "clothing_store",
-        "displayName": "Clothing Store",
+        "categoryId": "film_production_company",
+        "displayName": "Film Production Company",
         "isPredicted": false
       }
     ]
@@ -1247,7 +1280,7 @@
     "identifyingName": "bangertinc.com",
     "displayName": "Bangert, Inc.",
     "logoUrl": "//s3-eu-west-1.amazonaws.com/tpd/screenshotlogo-domain/6435c7d117cc990a6d1ba5a6/198x149.png",
-    "numberOfReviews": 228,
+    "numberOfReviews": 229,
     "trustScore": 4.9,
     "location": {
       "address": "814 E Main Street, #112",
@@ -1551,7 +1584,7 @@
     "identifyingName": "iggm.com",
     "displayName": "IGGM",
     "logoUrl": "//s3-eu-west-1.amazonaws.com/tpd/screenshotlogo-domain/5daac6198b173d0001fbdd53/198x149.png",
-    "numberOfReviews": 155879,
+    "numberOfReviews": 155965,
     "trustScore": 4.8,
     "location": {
       "address": null,
@@ -1577,8 +1610,8 @@
         "isPredicted": false
       },
       {
-        "categoryId": "internet_shop",
-        "displayName": "Internet Shop",
+        "categoryId": "gaming_service_provider",
+        "displayName": "Gaming service Provider",
         "isPredicted": false
       },
       {
@@ -1587,8 +1620,8 @@
         "isPredicted": false
       },
       {
-        "categoryId": "gaming_service_provider",
-        "displayName": "Gaming service Provider",
+        "categoryId": "internet_shop",
+        "displayName": "Internet Shop",
         "isPredicted": false
       }
     ]
@@ -1599,7 +1632,7 @@
     "identifyingName": "nfm.com",
     "displayName": "Nebraska Furniture Mart",
     "logoUrl": "//s3-eu-west-1.amazonaws.com/tpd/screenshotlogo-domain/5513053d0000ff00057e4ac1/198x149.png",
-    "numberOfReviews": 128176,
+    "numberOfReviews": 128192,
     "trustScore": 4.8,
     "location": {
       "address": null,
@@ -1615,6 +1648,11 @@
     },
     "categories": [
       {
+        "categoryId": "electronics_store",
+        "displayName": "Electronics Store",
+        "isPredicted": false
+      },
+      {
         "categoryId": "wholesaler_household_appliances",
         "displayName": "Wholesaler Household Appliances",
         "isPredicted": false
@@ -1622,64 +1660,6 @@
       {
         "categoryId": "furniture_store",
         "displayName": "Furniture Store",
-        "isPredicted": false
-      },
-      {
-        "categoryId": "electronics_store",
-        "displayName": "Electronics Store",
-        "isPredicted": false
-      }
-    ]
-  },
-  {
-    "businessUnitId": "5a70963080a9d9000122f85c",
-    "stars": 5,
-    "identifyingName": "swappa.com",
-    "displayName": "Swappa",
-    "logoUrl": "//s3-eu-west-1.amazonaws.com/tpd/screenshotlogo-domain/5a70963080a9d9000122f85c/198x149.png",
-    "numberOfReviews": 35806,
-    "trustScore": 4.8,
-    "location": {
-      "address": "6324 N Chatham Ave, #309",
-      "city": "Kansas City",
-      "zipCode": "64151",
-      "country": "United States"
-    },
-    "isRecommendedInCategories": true,
-    "contact": {
-      "website": "https://swappa.com",
-      "email": "help@swappa.com",
-      "phone": "860-479-2772"
-    },
-    "categories": [
-      {
-        "categoryId": "electronics_store",
-        "displayName": "Electronics Store",
-        "isPredicted": false
-      },
-      {
-        "categoryId": "computer_store",
-        "displayName": "Computer Store",
-        "isPredicted": false
-      },
-      {
-        "categoryId": "internet_shop",
-        "displayName": "Internet Shop",
-        "isPredicted": false
-      },
-      {
-        "categoryId": "online_marketplace",
-        "displayName": "Online Marketplace",
-        "isPredicted": false
-      },
-      {
-        "categoryId": "cell_phone_store",
-        "displayName": "Cell Phone Store",
-        "isPredicted": false
-      },
-      {
-        "categoryId": "used_computer_store",
-        "displayName": "Used Computer Store",
         "isPredicted": false
       }
     ]
@@ -1690,7 +1670,7 @@
     "identifyingName": "conquestcapped.com",
     "displayName": "ConquestCapped",
     "logoUrl": "//s3-eu-west-1.amazonaws.com/tpd/screenshotlogo-domain/5680dd4e0000ff000587054c/198x149.png",
-    "numberOfReviews": 3885,
+    "numberOfReviews": 3889,
     "trustScore": 4.9,
     "location": {
       "address": null,
@@ -1706,13 +1686,13 @@
     },
     "categories": [
       {
-        "categoryId": "gaming_service_provider",
-        "displayName": "Gaming service Provider",
+        "categoryId": "video_game_store",
+        "displayName": "Video Game Store",
         "isPredicted": false
       },
       {
-        "categoryId": "video_game_store",
-        "displayName": "Video Game Store",
+        "categoryId": "gaming_service_provider",
+        "displayName": "Gaming service Provider",
         "isPredicted": false
       },
       {
@@ -1759,13 +1739,13 @@
         "isPredicted": false
       },
       {
-        "categoryId": "hobby_store",
-        "displayName": "Hobby Store",
+        "categoryId": "video_game_store",
+        "displayName": "Video Game Store",
         "isPredicted": false
       },
       {
-        "categoryId": "video_game_store",
-        "displayName": "Video Game Store",
+        "categoryId": "hobby_store",
+        "displayName": "Hobby Store",
         "isPredicted": false
       }
     ]
@@ -1842,7 +1822,7 @@
     "identifyingName": "optimustracker.com",
     "displayName": "Optimus Tracker",
     "logoUrl": "//s3-eu-west-1.amazonaws.com/tpd/screenshotlogo-domain/5ac7cd86fb41d8000143ffc9/198x149.png",
-    "numberOfReviews": 2956,
+    "numberOfReviews": 2959,
     "trustScore": 4.9,
     "location": {
       "address": null,
@@ -1870,7 +1850,7 @@
     "identifyingName": "homebinder.com",
     "displayName": "HomeBinder",
     "logoUrl": "//s3-eu-west-1.amazonaws.com/tpd/screenshotlogo-domain/609272b4857654000142e58c/198x149.png",
-    "numberOfReviews": 2952,
+    "numberOfReviews": 2958,
     "trustScore": 4.9,
     "location": {
       "address": "1014 Penna AVe",
@@ -1886,8 +1866,8 @@
     },
     "categories": [
       {
-        "categoryId": "software_company",
-        "displayName": "Software Company",
+        "categoryId": "electric_utility_company",
+        "displayName": "Electric Utility Company",
         "isPredicted": false
       },
       {
@@ -1896,8 +1876,8 @@
         "isPredicted": false
       },
       {
-        "categoryId": "electric_utility_company",
-        "displayName": "Electric Utility Company",
+        "categoryId": "software_company",
+        "displayName": "Software Company",
         "isPredicted": false
       }
     ]
@@ -1908,7 +1888,7 @@
     "identifyingName": "humblefax.com",
     "displayName": "Humblefax",
     "logoUrl": "//s3-eu-west-1.amazonaws.com/tpd/screenshots/5c2cf5a99a9d6b0001ec2ac8/198x149.png",
-    "numberOfReviews": 2745,
+    "numberOfReviews": 2748,
     "trustScore": 4.9,
     "location": {
       "address": null,
@@ -1924,6 +1904,11 @@
     },
     "categories": [
       {
+        "categoryId": "fax_service",
+        "displayName": "Fax Service",
+        "isPredicted": false
+      },
+      {
         "categoryId": "internet_service_provider",
         "displayName": "Internet Service Provider",
         "isPredicted": false
@@ -1931,11 +1916,6 @@
       {
         "categoryId": "telecommunications_service_provider",
         "displayName": "Telecommunications Service Provider",
-        "isPredicted": false
-      },
-      {
-        "categoryId": "fax_service",
-        "displayName": "Fax Service",
         "isPredicted": false
       }
     ]
@@ -2124,13 +2104,13 @@
     },
     "categories": [
       {
-        "categoryId": "dns_provider",
-        "displayName": "DNS Provider",
+        "categoryId": "web_hosting_service",
+        "displayName": "Web Hosting Company",
         "isPredicted": false
       },
       {
-        "categoryId": "web_hosting_service",
-        "displayName": "Web Hosting Company",
+        "categoryId": "dns_provider",
+        "displayName": "DNS Provider",
         "isPredicted": false
       },
       {
@@ -2392,7 +2372,7 @@
     "identifyingName": "specialtyansweringservice.net",
     "displayName": "Specialty Answering Service",
     "logoUrl": "//s3-eu-west-1.amazonaws.com/tpd/screenshotlogo-domain/56b0ffde0000ff0005886a9c/198x149.png",
-    "numberOfReviews": 740,
+    "numberOfReviews": 741,
     "trustScore": 4.9,
     "location": {
       "address": "1006 W 9th Ave #150",
@@ -2418,13 +2398,13 @@
         "isPredicted": false
       },
       {
-        "categoryId": "telephone_answering_service",
-        "displayName": "Telephone Answering Service",
+        "categoryId": "call_center",
+        "displayName": "Call Center",
         "isPredicted": false
       },
       {
-        "categoryId": "call_center",
-        "displayName": "Call Center",
+        "categoryId": "telephone_answering_service",
+        "displayName": "Telephone Answering Service",
         "isPredicted": false
       }
     ]

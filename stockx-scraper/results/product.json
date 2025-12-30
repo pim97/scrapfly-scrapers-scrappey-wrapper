@@ -35,12 +35,12 @@
   "media": {
     "all360Images": [],
     "gallery": [
-      "https://images.stockx.com/images/Nike-x-Stussy-Bucket-Hat-Black-Product-1.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1658513167",
-      "https://images.stockx.com/images/Nike-x-Stussy-Bucket-Hat-Black-Product-2.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1658513168"
+      "https://images.stockx.com/images/Nike-x-Stussy-Bucket-Hat-Black-Product-1.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1738193358",
+      "https://images.stockx.com/images/Nike-x-Stussy-Bucket-Hat-Black-Product-2.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1738193358"
     ],
-    "smallImageUrl": "https://images.stockx.com/images/Nike-x-Stussy-Bucket-Hat-Black-Product-1.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1658513167",
-    "thumbUrl": "https://images.stockx.com/images/Nike-x-Stussy-Bucket-Hat-Black-Product-1.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1658513167",
-    "imageUrl": "https://images.stockx.com/images/Nike-x-Stussy-Bucket-Hat-Black-Product-1.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1658513167",
+    "smallImageUrl": "https://images.stockx.com/images/Nike-x-Stussy-Bucket-Hat-Black-Product-1.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1738193358",
+    "thumbUrl": "https://images.stockx.com/images/Nike-x-Stussy-Bucket-Hat-Black-Product-1.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1738193358",
+    "imageUrl": "https://images.stockx.com/images/Nike-x-Stussy-Bucket-Hat-Black-Product-1.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1738193358",
     "videos": null,
     "verticalImages": null
   },
@@ -260,7 +260,7 @@
       },
       {
         "name": "description",
-        "value": "Buy and sell StockX Verified Nike streetwear on StockX including the Nike x Stussy Bucket Hat Black from SS20."
+        "value": "Buy and sell Nike streetwear on StockX including the Nike x Stussy Bucket Hat Black from SS20. Every item is Verified by StockX or sent directly from a StockX Verified Seller."
       },
       {
         "name": "keywords",
@@ -268,208 +268,13 @@
       },
       {
         "name": "twitter:description",
-        "value": "Buy and sell StockX Verified Nike streetwear on StockX including the Nike x Stussy Bucket Hat Black and thousands of other streetwear clothing and accessories."
+        "value": "Buy and sell Nike streetwear on StockX including the Nike x Stussy Bucket Hat Black and thousands of other streetwear clothing and accessories. Every item is Verified by StockX or sent directly from a StockX Verified Seller."
       },
       {
         "name": "og:description",
-        "value": "Buy and sell StockX Verified Nike streetwear on StockX including the Nike x Stussy Bucket Hat Black and thousands of other streetwear clothing and accessories."
+        "value": "Buy and sell Nike streetwear on StockX including the Nike x Stussy Bucket Hat Black and thousands of other streetwear clothing and accessories. Every item is Verified by StockX or sent directly from a StockX Verified Seller."
       }
     ]
   },
-  "pricing": {
-    "minimumBid": 25,
-    "market": {
-      "state": {
-        "lowestAsk": {
-          "amount": 166,
-          "chainId": "14478637789849703776"
-        },
-        "highestBid": {
-          "amount": 80
-        },
-        "askServiceLevels": {
-          "expressExpedited": {
-            "count": 0,
-            "lowest": null,
-            "delivery": null
-          },
-          "expressStandard": {
-            "count": 0,
-            "lowest": null,
-            "delivery": null
-          }
-        },
-        "numberOfAsks": 5,
-        "numberOfBids": 14
-      },
-      "salesInformation": {
-        "lastSale": 85,
-        "salesLast72Hours": 0
-      },
-      "statistics": {
-        "lastSale": {
-          "amount": 85,
-          "changePercentage": -0.1176,
-          "changeValue": -10,
-          "sameFees": null
-        }
-      }
-    },
-    "variants": [
-      {
-        "id": "59411cb9-2474-42e8-b88e-d32847d4bd8d",
-        "market": {
-          "state": {
-            "lowestAsk": null,
-            "highestBid": {
-              "amount": 26
-            },
-            "askServiceLevels": {
-              "expressExpedited": {
-                "count": 0,
-                "lowest": null,
-                "delivery": null
-              },
-              "expressStandard": {
-                "count": 0,
-                "lowest": null,
-                "delivery": null
-              }
-            },
-            "numberOfAsks": 0,
-            "numberOfBids": 2
-          },
-          "salesInformation": {
-            "lastSale": 65,
-            "salesLast72Hours": 0
-          },
-          "statistics": {
-            "lastSale": {
-              "amount": 63,
-              "changePercentage": -0.5798,
-              "changeValue": -36,
-              "sameFees": null
-            }
-          }
-        }
-      },
-      {
-        "id": "c958e081-f4d0-48d7-b10e-bc8a61c7183b",
-        "market": {
-          "state": {
-            "lowestAsk": {
-              "amount": 169,
-              "chainId": "14437293106836972682"
-            },
-            "highestBid": {
-              "amount": 44
-            },
-            "askServiceLevels": {
-              "expressExpedited": {
-                "count": 0,
-                "lowest": null,
-                "delivery": null
-              },
-              "expressStandard": {
-                "count": 0,
-                "lowest": null,
-                "delivery": null
-              }
-            },
-            "numberOfAsks": 1,
-            "numberOfBids": 5
-          },
-          "salesInformation": {
-            "lastSale": 95,
-            "salesLast72Hours": 0
-          },
-          "statistics": {
-            "lastSale": {
-              "amount": 95,
-              "changePercentage": -0.2211,
-              "changeValue": -21,
-              "sameFees": null
-            }
-          }
-        }
-      },
-      {
-        "id": "143decc1-320c-4bc8-9e81-9e80b186deae",
-        "market": {
-          "state": {
-            "lowestAsk": {
-              "amount": 166,
-              "chainId": "14478637789849703776"
-            },
-            "highestBid": {
-              "amount": 80
-            },
-            "askServiceLevels": {
-              "expressExpedited": {
-                "count": 0,
-                "lowest": null,
-                "delivery": null
-              },
-              "expressStandard": {
-                "count": 0,
-                "lowest": null,
-                "delivery": null
-              }
-            },
-            "numberOfAsks": 4,
-            "numberOfBids": 5
-          },
-          "salesInformation": {
-            "lastSale": 85,
-            "salesLast72Hours": 0
-          },
-          "statistics": {
-            "lastSale": {
-              "amount": 85,
-              "changePercentage": -0.5294,
-              "changeValue": -45,
-              "sameFees": null
-            }
-          }
-        }
-      },
-      {
-        "id": "317c486f-8917-43d6-9d1b-a7a0da4e5d77",
-        "market": {
-          "state": {
-            "lowestAsk": null,
-            "highestBid": {
-              "amount": 65
-            },
-            "askServiceLevels": {
-              "expressExpedited": {
-                "count": 0,
-                "lowest": null,
-                "delivery": null
-              },
-              "expressStandard": {
-                "count": 0,
-                "lowest": null,
-                "delivery": null
-              }
-            },
-            "numberOfAsks": 0,
-            "numberOfBids": 2
-          },
-          "salesInformation": {
-            "lastSale": 328,
-            "salesLast72Hours": 0
-          },
-          "statistics": {
-            "lastSale": {
-              "amount": 328,
-              "changePercentage": 0.1631,
-              "changeValue": 54,
-              "sameFees": null
-            }
-          }
-        }
-      }
-    ]
-  }
+  "pricing": null
 }
