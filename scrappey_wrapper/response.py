@@ -55,6 +55,16 @@ class ScrapeApiResponse:
         return self._scrape_result
     
     @property
+    def result(self) -> Dict[str, Any]:
+        """
+        ScrapFly compatibility: response.result['result']['content'] returns content.
+        This mimics the nested structure ScrapFly uses.
+        """
+        return {
+            "result": self._scrape_result
+        }
+    
+    @property
     def status_code(self) -> int:
         return self._context.get("status_code", 200)
     
